@@ -15,7 +15,7 @@ const routes = [
       metaTags: [
         {
           name: 'description',
-          content: 'Descrição da primeira página'
+          content: 'Descrição da primeira página Teste'
         },
         {
           property: 'og:description',
