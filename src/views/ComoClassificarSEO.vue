@@ -1,23 +1,23 @@
 <template lang="pug">
   div
-    HeroBanner
-    HomeTiles
+    HeroPost
+    BlogSection
     MainFooter
 
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import HeroBanner from "@/components/HeroBanner.vue"; // @ is an alias to /src
-import HomeTiles from "@/components/HomeTiles.vue"; // @ is an alias to /src
+import HeroPost from "@/components/HeroPost.vue"; // @ is an alias to /src
+import BlogSection from "@/components/BlogSection.vue"; // @ is an alias to /src
 import MainFooter from "@/components/MainFooter.vue"; // @ is an alias to /src
 
 @Component({
   components: {
-    HeroBanner,
-    HomeTiles,
+    HeroPost,
+    BlogSection,
     MainFooter
   }
 })
-export default class Home extends Vue {}
+export default class ComoClassificarSEO extends Vue {}
 </script>
