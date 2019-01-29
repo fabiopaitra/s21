@@ -4,7 +4,8 @@ import Seo from './views/ComoClassificarSEO.vue';
 import Home from './views/Home.vue';
 
 Vue.use(Router);
-
+/* tslint:disable */
+/* eslint-disable */
 const routes = [
   {
     path: '/',
@@ -75,7 +76,7 @@ router.beforeEach((to, from, next) => {
 
   // Remove any stale meta tags from the document using the key attribute we set below.
   Array.from(document.querySelectorAll('[data-vue-router-controlled]'))
-    .map(el => (el.parentNode || {}).removeChild(el));
+    .map(el => el.parentNode.removeChild(el));
 
   // Skip rendering meta tags if there are none.
   if (!nearestWithMeta) return next();
