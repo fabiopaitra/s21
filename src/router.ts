@@ -12,7 +12,7 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      title: 's21digital | Marketing digital para liderar com dados',
+      title: 'Marketing digital para liderar com dados | s21digital',
       metaTags: [
         {
           name: 'description',
