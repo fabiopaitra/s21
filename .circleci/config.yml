@@ -22,9 +22,9 @@ jobs:
             - ~/.cache
           key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum ".circleci/config.yml" }}
         
-      - run: 
-          name: Linting Code
-          command: npm run lint
+      # - run: 
+      #     name: Linting Code
+      #     command: npm run lint
 
       - run: 
           name: Running unit tests
