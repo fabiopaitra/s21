@@ -19,11 +19,10 @@ main.columns
       p Neste post, você aprenderá exatamente como classificar seu site no Google, passo a passo. Este é um tutorial avançado de SEO, então se você não sabe o que significa SEO, este post não seria o melhor ponto de partida. Mas se você quer aprender sobre estratégias avançadas de SEO que obtêm resultados, você está no lugar certo.
       p Na verdade, usei as técnicas desse vídeo para aumentar meu tráfego orgânico em tempo recorde. Eu sou Fabio Paitra, o fundador da s21, e neste post vou mostrar o meu plano de ação passo a passo para melhorar seu ranking orgânico no Google, incluindo muitos estudos de caso reais. Nós temos muito o que cobrir neste vídeo, então vamos nos aprofundar. Eu lancei meu primeiro site em 2008.
       p Não é preciso dizer que o SEO era muito diferente naquela época. No passado, passava horas procurando por um nome de domínio que contivesse minha palavra-chave alvo. Dogbirthdaycakerecipes.net ainda está disponível. Eu vou ser rico Hoje, enganar o Google com domínios de correspondência exata ou backlinks falsos simplesmente não funciona. Então o que faz? As estratégias que vou compartilhar com você neste tutorial de SEO. Então, sem mais delongas, vamos começar com o passo número um.
-    section.container.column.content
-      h2 1. Site Velocidade de carregamento 
-      p Primeiro, vamos aumentar a velocidade de carregamento do seu site. O Google confirmou publicamente que usa a velocidade de carregamento do seu site como um fator de classificação. E a partir de meus próprios experimentos, descobri que a velocidade do site afeta os rankings, mas não da maneira que você pensa. A maioria das pessoas acha que o Google recompensa você por ter um site de carregamento rápido, mas isso simplesmente não é verdade. Meus experimentos de SEO revelaram que o Google não recompensa sites de carregamento rápido. Penaliza sites de carregamento lento. Isso faz sentido se você pensar sobre isso.
-      p O trabalho número um do Google é oferecer aos usuários o melhor resultado para uma determinada pesquisa. E todos, e eu quero dizer que todo mundo odeia sites de carregamento lento. Carregando a página. (música techno) Finalmente carregou. Então, se o seu site for mais lento do que o melaço, sim, o Google vai rebaixá-lo. Mas quando você atinge um certo limite de velocidade, você está no mesmo nível da maioria das outras páginas na internet. Portanto, o Google não vê nenhum motivo para classificá-lo como superior. Faz sentido? Boa. Agora é hora de melhorar a velocidade de carregamento do seu site.
-      p Primeiro, vá para o Google PageSpeed ​​Insights. Digite uma página do seu site aqui. Agora, como uma dica profissional, não coloque automaticamente sua página inicial nesse campo. Em vez disso, insira uma página interna do seu site que receba muito tráfego, como uma postagem no blog ou um artigo. Dessa forma, você obterá informações em uma página que muitos de seus visitantes realmente verão. Em seguida, clique em Analisar e o Google mostrará onde o código da sua página poderia usar um ajuste. Agora a ferramenta do Google é útil, mas tem um grande problema. Não mede a velocidade de carregamento real de um site. A sério. Em vez disso, o Google PageSpeed ​​Insights simplesmente analisa o código da sua página. Para ter uma noção mais precisa de como seu site é carregado para usuários reais, confira gtmetrix.com. O Gtmetrix mostrará dados sobre como sua página realmente é carregada para os usuários da vida real, o que é uma medida muito mais precisa de como a velocidade do seu site se acumula.
+    section.container.column.content(v-for="content in contents")
+      h2 {{ content.title }}
+      p(v-for="description in content.descriptions")
+      
     section.container.column.content
       h2 2. Techinal SEO
       p Em seguida, é hora de verificar o seu SEO técnico. Aqui está o acordo. Você pode ter o melhor site com o melhor conteúdo, mas se o seu site tiver sérios problemas técnicos de SEO, você não será classificado. Felizmente, identificar e corrigir esse tipo de problema pode ser super fácil. Veja como fazer isso.
@@ -59,30 +58,6 @@ main.columns
       p Por exemplo, Larry notou uma correlação clara entre taxa de cliques e classificações orgânicas. Especificamente, ele descobriu que as páginas com CTR alto tendiam a ultrapassar as páginas com uma taxa de cliques abaixo da média. Em outras palavras, o RankBrain provavelmente mede a CTR e usa esses dados como um fator chave de classificação.
       p Larry também descobriu que as páginas com uma taxa de rejeição abaixo de 76% tendem a se classificar melhor. Isso porque o RankBrain também analisa a frequência com que as pessoas retornam do seu site. Obviamente, quanto menor a taxa de rejeição, melhor. Se você quer aprender como melhorar sua taxa de cliques, confira este vídeo. E se você quiser ver como evitar que as pessoas saltem do seu site, este vídeo é para você. Ok, é isso para o meu tutorial avançado de SEO. Se você gostou deste vídeo, inscreva-se no meu canal agora mesmo. Basta clicar no botão Inscrever-se.
       p Além disso, se você quiser técnicas exclusivas de SEO que eu só compartilho com os assinantes, vá até o backlinko.com e inscreva-se no boletim informativo. É grátis. Agora é hora de ouvir de você. Qual das estratégias deste vídeo você vai usar primeiro? Você vai melhorar a velocidade do seu site? Ou tente o link building quebrado? Deixe-me saber deixando um comentário abaixo agora. Então, você sabe o que estou dizendo? Tão mal que é bom, tudo bem. Wundervar Eu poderia esquecer, vai como (swooping). Eu gosto de comer isso. Tempo de vácuo, tempo de construção. Isso é ridículo, novamente, parece insano. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
 </template>
 
 <script lang="ts">
@@ -91,6 +66,16 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 @Component
 export default class BlogSection extends Vue {
   @Prop() private msg!: string;
+  contents = [
+    {
+      title: "1. Site Velocidade de carregamento",
+      descriptions: [
+        "Primeiro, vamos aumentar a velocidade de carregamento do seu site. O Google confirmou publicamente que usa a velocidade de carregamento do seu site como um fator de classificação. E a partir de meus próprios experimentos, descobri que a velocidade do site afeta os rankings, mas não da maneira que você pensa. A maioria das pessoas acha que o Google recompensa você por ter um site de carregamento rápido, mas isso simplesmente não é verdade. Meus experimentos de SEO revelaram que o Google não recompensa sites de carregamento rápido. Penaliza sites de carregamento lento. Isso faz sentido se você pensar sobre isso.",
+        "O trabalho número um do Google é oferecer aos usuários o melhor resultado para uma determinada pesquisa. E todos, e eu quero dizer que todo mundo odeia sites de carregamento lento. Carregando a página. (música techno) Finalmente carregou. Então, se o seu site for mais lento do que o melaço, sim, o Google vai rebaixá-lo. Mas quando você atinge um certo limite de velocidade, você está no mesmo nível da maioria das outras páginas na internet. Portanto, o Google não vê nenhum motivo para classificá-lo como superior. Faz sentido? Boa. Agora é hora de melhorar a velocidade de carregamento do seu site.",
+        "Primeiro, vá para o Google PageSpeed ​​Insights. Digite uma página do seu site aqui. Agora, como uma dica profissional, não coloque automaticamente sua página inicial nesse campo. Em vez disso, insira uma página interna do seu site que receba muito tráfego, como uma postagem no blog ou um artigo. Dessa forma, você obterá informações em uma página que muitos de seus visitantes realmente verão. Em seguida, clique em Analisar e o Google mostrará onde o código da sua página poderia usar um ajuste. Agora a ferramenta do Google é útil, mas tem um grande problema. Não mede a velocidade de carregamento real de um site. A sério. Em vez disso, o Google PageSpeed ​​Insights simplesmente analisa o código da sua página. Para ter uma noção mais precisa de como seu site é carregado para usuários reais, confira gtmetrix.com. O Gtmetrix mostrará dados sobre como sua página realmente é carregada para os usuários da vida real, o que é uma medida muito mais precisa de como a velocidade do seu site se acumula."
+      ]
+    }
+  ];
 }
 </script>
 

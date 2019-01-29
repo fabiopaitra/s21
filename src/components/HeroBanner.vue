@@ -14,7 +14,7 @@ header.hero.is-fullheight.is-primary.is-bold
           span(aria-hidden="true")
       #navbarBasicExample.navbar-menu
         .navbar-start
-          a.navbar-item
+          //- a.navbar-item
   .hero-body
     .container
       h1.title.is-size-1.is-spaced
