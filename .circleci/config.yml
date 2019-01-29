@@ -26,16 +26,16 @@ jobs:
       #     name: Linting Code
       #     command: npm run lint
 
-      - run: 
-          name: Running unit tests
-          command: npm run test:unit
+      # - run: 
+      #     name: Running unit tests
+      #     command: npm run test:unit
 
-      - run: 
-          name: Running e2e tests
-          command: npm run test:e2e -- --headless
+      # - run: 
+      #     name: Running e2e tests
+      #     command: npm run test:e2e -- --headless
 
-      - store_artifacts:
-          path: tests/e2e/screenshots
+      # - store_artifacts:
+      #     path: tests/e2e/screenshots
 
       - run:
           name: Deploying
