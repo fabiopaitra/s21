@@ -12,16 +12,16 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      title: 'Home title',
+      title: 's21digital | Marketing digital para liderar com dados',
       metaTags: [
         {
           name: 'description',
-          content: 'Descrição da primeira página Teste'
+          content: 'Marketing digital, ferramentas, mídia de performance e análise de dados para alancar o tráfego do seu site.'
         },
-        {
-          property: 'og:description',
-          content: 'OG da primeira pagina'
-        }
+        // {
+        //   property: 'og:description',
+        //   content: 'OG da primeira pagina'
+        // }
       ]
     },
   },
