@@ -2,25 +2,38 @@
 main.columns
   article.column
     figure.image.is-square.is-hidden-desktop
-      img(src="../assets/images/beauty.jpg", alt="Placeholder image")
+      img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
     figure.image.is-3by1.is-hidden-touch
-      img(src="../assets/images/beauty.jpg", alt="Placeholder image")
+      img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
     .column.has-background-light
       nav.breadcrumb(aria-label='breadcrumbs').container
         ul
           li
             router-link(:to="{ name: 'Home' }") Home
           li.is-active
-            a(aria-current='page') SEO para obter mais tráfego orgânico
+            a(aria-current='page') SEO para sua pequena empresa
     header.container.section
-      h1.title.has-text-primary.is-size-2 SEO para obter mais tráfego orgânico
-      p.subtitle.is-size-4.is-italic.is-secondary.has-text-grey Sete ações que você deve levar em conta para buscar o primeiro posicionamento no Google.
+      h1.title.has-text-primary.is-size-2 SEO para sua pequena empresa (2019)
+      p.subtitle.is-size-4.is-italic.is-secondary.has-text-grey Cinco ações rápidas para alavancar o tráfego do seu website.
     section.container.column.content
-      p Neste post, você aprenderá exatamente como classificar seu site no Google, passo a passo. Este é um tutorial avançado de SEO, então se você não sabe o que significa SEO, este post não seria o melhor ponto de partida. Mas se você quer aprender sobre estratégias avançadas de SEO que obtêm resultados, você está no lugar certo.
-      p Na verdade, usei as técnicas desse vídeo para aumentar meu tráfego orgânico em tempo recorde. Eu sou Fabio Paitra, o fundador da s21, e neste post vou mostrar o meu plano de ação passo a passo para melhorar seu ranking orgânico no Google, incluindo muitos estudos de caso reais. Nós temos muito o que cobrir neste vídeo, então vamos nos aprofundar. Eu lancei meu primeiro site em 2008.
-      p Não é preciso dizer que o SEO era muito diferente naquela época. No passado, passava horas procurando por um nome de domínio que contivesse minha palavra-chave alvo. Dogbirthdaycakerecipes.net ainda está disponível. Eu vou ser rico Hoje, enganar o Google com domínios de correspondência exata ou backlinks falsos simplesmente não funciona. Então o que faz? As estratégias que vou compartilhar com você neste tutorial de SEO. Então, sem mais delongas, vamos começar com o passo número um.
+      p Primeiro, vamos aumentar a velocidade de carregamento do seu site. O Google confirmou publicamente que usa a velocidade de carregamento do seu site como um fator de classificação. E a partir de meus próprios experimentos, descobri que a velocidade do site afeta os rankings, mas não da maneira que você pensa. A maioria das pessoas acha que o Google recompensa você por ter um site de carregamento rápido, mas isso não é verdade.
+      p Meus experimentos de SEO revelaram que o Google não recompensa sites de carregamento rápido. Mas ao contrário, ele penaliza sites de carregamento lento. Isso faz sentido se você parar para pensar. O trabalho número um do Google é oferecer aos usuários o melhor resultado para uma determinada pesquisa. E todos, e eu quero dizer que todo mundo odeia sites de carregamento lento.
+      p Então, se o seu site for mais lento do que o Rubinho, sim, o Google vai rebaixá-lo. Mas quando você atinge um certo limite de velocidade, você está no mesmo nível da maioria das outras páginas na internet. Portanto, o Google não vê nenhum motivo para classificá-lo como superior. Faz sentido?
+        p Boa. Agora é hora de melhorar a velocidade de carregamento do seu site.
+        ul
+          li Primeiro, vá para o Google PageSpeed ​​Insights. Insira a página do seu site. Agora, como uma dica profissional, não coloque automaticamente sua página inicial nesse campo. Em vez disso, insira uma página interna do seu site que receba muito tráfego, como uma postagem no blog ou produto. Dessa forma, você obterá informações em uma página que muitos de seus visitantes realmente verão.
+          li Em seguida, clique em Analisar e o Google mostrará onde o código da sua página poderia usar um ajuste. Agora a ferramenta do Google é útil, mas tem um grande problema. Não mede a velocidade de carregamento real de um site. Em vez disso, o Google PageSpeed ​​Insights simplesmente analisa o código da sua página.
+          li 
+            | Para ter uma noção mais precisa de como seu site é carregado para usuários reais, confira 
+            a(href="https://gtmetrix.com" title="gtmetrix.com" target="_blank")
+              span.icon
+                i.mdi.mdi-external-link
+              span gtmetrix.com. 
+            | O Gtmetrix mostrará dados sobre como sua página realmente é carregada para os usuários da vida real, o que é uma medida muito mais precisa de como a velocidade do seu site se acumula.
+
+
     section.container.column.content
-      h2 1. Site Velocidade de carregamento 
+      h2.is-light 1. Site Velocidade de carregamento 
       p Primeiro, vamos aumentar a velocidade de carregamento do seu site. O Google confirmou publicamente que usa a velocidade de carregamento do seu site como um fator de classificação. E a partir de meus próprios experimentos, descobri que a velocidade do site afeta os rankings, mas não da maneira que você pensa. A maioria das pessoas acha que o Google recompensa você por ter um site de carregamento rápido, mas isso simplesmente não é verdade. Meus experimentos de SEO revelaram que o Google não recompensa sites de carregamento rápido. Penaliza sites de carregamento lento. Isso faz sentido se você pensar sobre isso.
       p O trabalho número um do Google é oferecer aos usuários o melhor resultado para uma determinada pesquisa. E todos, e eu quero dizer que todo mundo odeia sites de carregamento lento. Carregando a página. (música techno) Finalmente carregou. Então, se o seu site for mais lento do que o melaço, sim, o Google vai rebaixá-lo. Mas quando você atinge um certo limite de velocidade, você está no mesmo nível da maioria das outras páginas na internet. Portanto, o Google não vê nenhum motivo para classificá-lo como superior. Faz sentido? Boa. Agora é hora de melhorar a velocidade de carregamento do seu site.
       p Primeiro, vá para o Google PageSpeed ​​Insights. Digite uma página do seu site aqui. Agora, como uma dica profissional, não coloque automaticamente sua página inicial nesse campo. Em vez disso, insira uma página interna do seu site que receba muito tráfego, como uma postagem no blog ou um artigo. Dessa forma, você obterá informações em uma página que muitos de seus visitantes realmente verão. Em seguida, clique em Analisar e o Google mostrará onde o código da sua página poderia usar um ajuste. Agora a ferramenta do Google é útil, mas tem um grande problema. Não mede a velocidade de carregamento real de um site. A sério. Em vez disso, o Google PageSpeed ​​Insights simplesmente analisa o código da sua página. Para ter uma noção mais precisa de como seu site é carregado para usuários reais, confira gtmetrix.com. O Gtmetrix mostrará dados sobre como sua página realmente é carregada para os usuários da vida real, o que é uma medida muito mais precisa de como a velocidade do seu site se acumula.
@@ -85,12 +98,20 @@ main.columns
 
 </template>
 
+
+ 
+
+
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
+import MenuIcon from "vue-material-design-icons/Menu.vue";
 
 @Component
 export default class BlogSection extends Vue {
   @Prop() private msg!: string;
+  components: {
+    MenuIcon;
+  };
 }
 </script>
 

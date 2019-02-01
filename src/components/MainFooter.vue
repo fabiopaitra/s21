@@ -1,6 +1,6 @@
 <template <template lang="pug">
 footer.footer
-  .container.columns
+  //- .container.columns
     .column.content.is-small.is-6
       h4 Navegation
       span.icon.has-text-danger
@@ -20,8 +20,8 @@ footer.footer
     
   .container.columns
     .column.content.is-small
-      p
-      |© TMRD Ltd 2018. All rights reserved. Privacy  Terms TMRD Ltd is registered in England  Wales
+      p O conteúdo do site s21digital.com está licenciado sob a 
+        a(href="https://creativecommons.org/licenses/by/4.0/deed.pt_BR", target="_blank", title="Creative Commons International Attribuition 4.0") Creative Commons Internacional Attribution 4.0.
     
 </template>
 

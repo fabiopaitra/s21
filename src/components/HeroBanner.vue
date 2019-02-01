@@ -17,11 +17,11 @@ header.hero.is-fullheight.is-primary.is-bold
           //- a.navbar-item
   .hero-body
     .container
-      h1.title.is-size-1.is-spaced
-        | Aprenda. Inspire. Conecte. 
-        span.has-text-danger Faça
-      h2.subtitle
-        | Inspiração na web.
+      h2.title.is-size-1.is-spaced
+        | Lidere com 
+        span.has-text-danger dados
+      h1.subtitle
+        | Marketing digital, ferramentas, mídia de performance e análise de dados para alancar o tráfego do seu site.
   </template>
 
 <script lang="ts">

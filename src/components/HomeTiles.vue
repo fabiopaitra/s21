@@ -3,29 +3,24 @@ section.section.has-background-light
     .tile.is-ancestor
       .tile.is-vertical
         .tile
-          .tile.is-parent.is-6
+          .tile.is-parent.is-3
             article.tile.is-child
               .card
                 .card-image
-                  figure.image.is-4by5
-                    img(src="../assets/images/beauty.jpg", alt="Placeholder image")
+                  figure.image.is-5by4
+                    router-link(:to="{ name: 'Seo' }")
+                      img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
                 .card-content
                   .media
                     .media-content
                       p.title.is-4
-                        router-link(:to="{ name: 'Seo' }") SEO
-                      p.subtitle.is-6 @johnsmith
+                        router-link(:to="{ name: 'Seo' }") SEO para sua pequena empresa
                   .content
-                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    | Phasellus nec iaculis mauris. 
-                    a @bulmaio
-                    | .
-                    a(href="#") #css
-                    a(href="#") #responsive
-                    br
-                    time(datetime="2016-1-1") 11:09 PM - 1 Jan 2016
+                    | Não pense que o SEO é difícil e doloroso. Confira este guia com 5 ações práticas  e veja seu tráfego crescer.
+                    
+            
         
-          .tile.is-parent.is-vertical.is-3
+          //- .tile.is-parent.is-vertical.is-3
             article.tile.is-child
               .card
                 .card-image
@@ -84,7 +79,7 @@ section.section.has-background-light
                     a(href="#") #responsive
                     br
                     time(datetime="2016-1-1") 11:09 PM - 1 Jan 2016
-          .tile.is-parent.is-vertical.is-3
+          //- .tile.is-parent.is-vertical.is-3
             article.tile.is-child
               .card
                 .card-image
