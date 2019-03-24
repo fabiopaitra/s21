@@ -1,22 +1,52 @@
 <template lang="pug">
-section.section.has-background-light
+section.section
     .tile.is-ancestor
       .tile.is-vertical
         .tile
-          .tile.is-parent.is-3
+          .tile.is-parent.is-4
             article.tile.is-child
               .card
                 .card-image
                   figure.image.is-5by4
                     router-link(:to="{ name: 'Seo' }")
-                      img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
+                      img(src="../assets/images/atracao.png", alt="Nossa missão é tornar você líder")
                 .card-content
                   .media
                     .media-content
                       p.title.is-4
-                        router-link(:to="{ name: 'Seo' }") SEO para sua pequena empresa
+                        router-link(:to="{ name: 'Seo' }") Tornar você líder é nossa missão.
                   .content
-                    | Não pense que o SEO é difícil e doloroso. Confira este guia com 5 ações práticas  e veja seu tráfego crescer.
+                    | Alinhe as estratégias para analisar as evoluções do mercado, o sentimento do cliente e as tendências. Impulsione o ROI de marketing graças a um melhor desempenho no direcionamento de campanhas.
+          .tile
+          .tile.is-parent.is-4
+            article.tile.is-child
+              .card
+                .card-image
+                  figure.image.is-5by4
+                    router-link(:to="{ name: 'Seo' }")
+                      img(src="../assets/images/ativacao.png", alt="Nossa missão é tornar você líder")
+                .card-content
+                  .media
+                    .media-content
+                      p.title.is-4
+                        router-link(:to="{ name: 'Seo' }") Prepare-se para conquistar seu espaço na era digital
+                  .content
+                    | Amplifique seus canais de aquisição criando conteúdo mais atraente e anúncios mais eficazes com insights orientados por dados.
+          .tile
+          .tile.is-parent.is-4
+            article.tile.is-child
+              .card
+                .card-image
+                  figure.image.is-5by4
+                    router-link(:to="{ name: 'Seo' }")
+                      img(src="../assets/images/retencao.png", alt="Nossa missão é tornar você líder")
+                .card-content
+                  .media
+                    .media-content
+                      p.title.is-4
+                        router-link(:to="{ name: 'Seo' }") Faça a jornada do cliente mais empolgante
+                  .content
+                    | Seja pioneiro diariamente com uma análise  de ponta a ponta criada para transformar toda a sua startup.
                     
             
         

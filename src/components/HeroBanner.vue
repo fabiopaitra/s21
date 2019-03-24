@@ -21,17 +21,23 @@ header.hero.is-fullheight.is-primary.is-bold
         | Lidere com 
         span.has-text-danger dados
       h1.subtitle
-        | Marketing digital, ferramentas, mídia de performance e análise de dados para alancar o tráfego do seu site.
+        | Melhore o objetivo, a conversão e o ROI. Analise o sentimento do cliente e aumente o conhecimento sobre a marca. 
+      span(v-once) {{ hbspt }}
+
+
   </template>
 
-<script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
-
-@Component
-export default class HeroBanner extends Vue {
-  @Prop() private msg!: string;
+export default {
+  data() {
+    return {
+      hbspt.forms.create: {
+        'portalId': '5403699',
+        'formId': "03cde20b-a4ae-47b5-a8bf-085497cd349d"
+      }
+    }
+  },
 }
-</script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
