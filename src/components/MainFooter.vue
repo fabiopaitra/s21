@@ -9,6 +9,7 @@ footer.footer.has-background-grey-lighter
       p: a.has-text-dark Preços
     .column.content.is-small.is-3
       h4 Serviços e ferramentas
+      p: a.has-text-dark Blog
       p: a.has-text-dark Treinamento
       p: a.has-text-dark Ferramentas
       p: a.has-text-dark Nossos parceiros
@@ -19,9 +20,8 @@ footer.footer.has-background-grey-lighter
       p: a.has-text-dark Imprensa
       p: a.has-text-dark Trabalhe conosco
       p: a.has-text-dark Entre em contato
-    .column.content.is-small.is-2
-      h4 Produtos
-      p: a.has-text-dark Blog
+      
+      
   .container.columns
     .column.content.is-small
       p O conteúdo do site s21digital.com está licenciado sob a 
