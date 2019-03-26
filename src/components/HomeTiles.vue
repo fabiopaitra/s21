@@ -1,5 +1,6 @@
 <template lang="pug">
-section.section
+section.section.has-background-light
+  header
     .tile.is-ancestor
       .tile.is-vertical
         .tile
@@ -13,8 +14,9 @@ section.section
                 .card-content
                   .media
                     .media-content
+                      p.subtitle.is-6.has-text-grey-light AQUISIÇÃO
                       p.title.is-4
-                        router-link(:to="{ name: 'Seo' }") Tornar você líder é nossa missão.
+                        router-link(:to="{ name: 'Seo' }") Tornar você líder é nossa missão
                   .content
                     | Alinhe as estratégias para analisar as evoluções do mercado, o sentimento do cliente e as tendências. Impulsione o ROI de marketing graças a um melhor desempenho no direcionamento de campanhas.
           .tile
@@ -28,6 +30,7 @@ section.section
                 .card-content
                   .media
                     .media-content
+                      p.subtitle.is-6.has-text-grey-light ATIVAÇÃO
                       p.title.is-4
                         router-link(:to="{ name: 'Seo' }") Prepare-se para conquistar seu espaço na era digital
                   .content
@@ -43,6 +46,7 @@ section.section
                 .card-content
                   .media
                     .media-content
+                      p.subtitle.is-6.has-text-grey-light RETENÇÃO
                       p.title.is-4
                         router-link(:to="{ name: 'Seo' }") Faça a jornada do cliente mais empolgante
                   .content
