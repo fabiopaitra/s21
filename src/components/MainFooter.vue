@@ -41,16 +41,16 @@ footer.footer.has-background-grey-lighter
         a(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger")
           i.fab.fa-facebook-messenger.fa-2x
       
-  hr.container    
-  .container.columns
-    .column.content.is-small.is-5
-      p Licenciado sob a 
-        a.has-text-dark(href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR", target="_blank", title="Creative Commons International Attribuition 4.0") Creative Commons Internacional Attribution 4.0.
-    .columns.container.is-mobile
-      .column.content.is-small.is-5
-        p Política de privacidade
-      .column.content.is-small
-        p Termos de uso
+  hr.container.level    
+  .level.container
+    .level-left.content.is-small
+      .level-item
+        p Licenciado sob a 
+          a.has-text-dark(href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR", target="_blank", title="Creative Commons International Attribuition 4.0") Creative Commons Internacional Attribution 4.0.
+      .level-item
+        a.has-text-dark(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger") Política de privacidade
+      .level-item
+        a.has-text-dark(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger") Termos de uso
 
         
 </template>
