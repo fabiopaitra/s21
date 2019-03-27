@@ -51,8 +51,6 @@ footer.footer.has-background-grey-lighter
         p Política de privacidade
       .column.content.is-small
         p Termos de uso
-      .column.content.is-small
-        p Mapa do site
 
         
 </template>
