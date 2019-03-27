@@ -23,7 +23,14 @@ header.hero.is-fullheight.is-primary.is-bold
         | Lidere com 
         span.has-text-danger dados
       h1.subtitle
-        | Melhore o objetivo, a conversão e o ROI. Analise o sentimento do cliente e aumente o conhecimento sobre a marca. 
+        | Melhore o objetivo, a conversão e o ROI. Analise o sentimento do cliente e aumente o conhecimento sobre a marca.
+      .level
+        .level-item
+          input.input(type='text', placeholder='Receba um relatório gratuito do seu site')
+        .level-right.section
+          input.button.is-danger.is-fullwidth.is-outlined.is-inverted(type='submit', value='Analise meu site')
+
+
 
 
   </template>
