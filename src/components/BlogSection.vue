@@ -97,22 +97,3 @@ main.columns
   
 
 </template>
-
-
- 
-
-
-<script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
-import MenuIcon from "vue-material-design-icons/Menu.vue";
-
-@Component
-export default class BlogSection extends Vue {
-  @Prop() private msg!: string;
-  components: {
-    MenuIcon;
-  };
-}
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
