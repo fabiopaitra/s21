@@ -56,7 +56,7 @@ footer.footer.has-background-grey-lighter
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class MainFooter extends Vue {

@@ -4,9 +4,9 @@ import router from './router';
 
 Vue.config.productionTip = false;
 
-require("./assets/main.scss")
+import './assets/main.scss';
 
 new Vue({
   router,
-  render: h => h(App),
+  render: (h) => h(App),
 }).$mount('#app');

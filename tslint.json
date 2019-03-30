@@ -3,6 +3,13 @@
   "extends": [
     "tslint:recommended"
   ],
+  "trailing-comma": [
+    true,
+    {
+      "multiline": "always",
+      "singleline": "never"
+    }
+  ],
   "linterOptions": {
     "exclude": [
       "node_modules/**"
