@@ -2,9 +2,6 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Seo from './views/ComoClassificarSEO.vue';
 import Home from './views/Home.vue';
-import NotFoundComponent from './views/Home.vue';
-
-Vue.use(VueRouter);
 
 const router = new VueRouter({
   mode: 'history',
@@ -12,17 +9,17 @@ const router = new VueRouter({
   routes: [
     {
       path: '*',
-      component: NotFoundComponent,
+      redirect: { name: 'Home' },
     },
     {
       path: '/',
       name: 'Home',
       component: Home,
       meta: {
-        title: 'Marketing digital para liderar com dados | s21digital',
+        title: 'Lidere com dados | s21digital - Growth Hacking',
         metaTags: [{
           name: 'description',
-          content: 'Marketing digital, ferramentas, mídia de performance e análise de dados',
+          content: 'Growth Hacking, marketing digital, ferramentas, mídia de performance e análise de dados',
         },
         ],
       },
@@ -54,5 +51,5 @@ const router = new VueRouter({
     }
   },
 });
-
+Vue.use(VueRouter);
 export default router;
