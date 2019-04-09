@@ -7,11 +7,15 @@ main.columns
       img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
     .column.has-background-light
       nav.breadcrumb(aria-label='breadcrumbs').container
-        ul
-          li
-            router-link(:to="{ name: 'Home' }") Home
-          li.is-active
-            a(aria-current='page') SEO para sua pequena empresa
+        ul(itemscope='', itemtype='http://schema.org/BreadcrumbList')
+          li(itemprop='itemListElement', itemscope='', itemtype='http://schema.org/ListItem')
+            router-link(:to="{ name: 'Home' }", itemprop='item', href='https://s21digital.com')
+              span(itemprop='name') Home
+            meta(itemprop='position', content='1')
+          li.is-active(itemprop='itemListElement', itemscope='', itemtype='http://schema.org/ListItem')
+            a(aria-current='page', itemprop='item', href='https://s21digital.com/como-classificar-site-primeira-posicao-google' )
+              span(itemprop='name') SEO para sua pequena empresa
+            meta(itemprop='position', content='2')
     header.container.section
       h1.title.has-text-primary.is-size-2 SEO para sua pequena empresa (2019)
       p.subtitle.is-size-4.is-italic.is-secondary.has-text-grey Cinco ações rápidas para alavancar o tráfego do seu website.
