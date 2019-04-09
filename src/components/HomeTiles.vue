@@ -55,7 +55,6 @@ section.section.has-background-light
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-
 @Component
 export default class HomeTiles extends Vue {
   @Prop() private msg!: string;
