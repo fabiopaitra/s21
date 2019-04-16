@@ -40,7 +40,7 @@ export default {
     },
     hubspotFormId: {
       type: String,
-      default: '03cde20b-a4ae-47b5-a8bf-085497cd349d',
+      default: '7bc3121b-e5fc-4cac-98de-7a86bfeac163',
     },
     submitButtonClass: {
       type: String,
