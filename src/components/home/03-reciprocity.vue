@@ -9,7 +9,7 @@ section.section.container
       div(:id="`hubspot-form-${hubspotFormId}`")
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: 'reciprocity',
   props: {
@@ -40,7 +40,7 @@ export default {
     },
     hubspotFormId: {
       type: String,
-      default: '7bc3121b-e5fc-4cac-98de-7a86bfeac163',
+      default: '03cde20b-a4ae-47b5-a8bf-085497cd349d',
     },
     submitButtonClass: {
       type: String,
@@ -102,4 +102,3 @@ export default {
   },
 };
 </script>
-

@@ -1,12 +1,14 @@
-<template lang="pug">
+<template <template lang="pug">
 section.section.container
-  .columns
-    .column.is-two-thirds.content
-      h2.title Senso de urgência
-      p Durante o mês de maio, faremos a seleção das startups que iremos trabalhar
-      p Faça a inscrição até o final de abril e faça parte.
+    .columns
+      .column.is-8
+        h2.title Começe a crescer hoje mesmo 
+        p Otimize as estratégias de marketing. Faça com que a jornada do cliente seja mais empolgante. Monitore e meça o desempenho de campanhas. Melhore o objetivo, a conversão e o ROI. Analise o sentimento do cliente e aumente o conhecimento sobre a marca. 
+      .column
+        figure.image.is-16by9
+          router-link(:to="{ name: 'Seo' }")
+            img(src="@/assets/images/marketing-de-dados.jpg", alt="Nossa missão é tornar você líder")      
 
-      
 </template>
 
 <script lang="ts">
