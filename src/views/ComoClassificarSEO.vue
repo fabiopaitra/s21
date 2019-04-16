@@ -2,7 +2,7 @@
   div
     HeroPost
     BlogSection
-    MainFooter
+    mainFooter
 
 </template>
 
@@ -10,13 +10,13 @@
 import { Component, Vue } from 'vue-property-decorator';
 import HeroPost from '@/components/HeroPost.vue'; // @ is an alias to /src
 import BlogSection from '@/components/BlogSection.vue'; // @ is an alias to /src
-import MainFooter from '@/components/MainFooter.vue'; // @ is an alias to /src
+import mainFooter from '@/components/10-mainFooter.vue'; // @ is an alias to /src
 
 @Component({
   components: {
     HeroPost,
     BlogSection,
-    MainFooter,
+    mainFooter,
   },
 })
 export default class ComoClassificarSEO extends Vue {}

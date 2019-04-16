@@ -8,9 +8,9 @@
     companies
     certification
     socialProof
-    mainCta
     urgency
     faq
+    mainCta
     mainFooter
 
 </template>
@@ -25,9 +25,9 @@ import comparison from '@/components/home/04-comparison.vue';
 import companies from '@/components/home/05-companies.vue';
 import certification from '@/components/home/06-certification.vue';
 import socialProof from '@/components/home/07-socialProof.vue';
-import mainCta from '@/components/08-mainCta.vue';
 import urgency from '@/components/home/09-urgency.vue';
 import faq from '@/components/home/10-faq.vue';
+import mainCta from '@/components/08-mainCta.vue';
 import mainFooter from '@/components/10-mainFooter.vue';
 
 @Component({

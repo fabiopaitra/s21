@@ -1,5 +1,8 @@
-/<template lang="pug">
-  h2 Depoimentos  
+<template lang="pug">
+section.section.container
+  .columns
+    .column.is-two-thirds.content
+      h2.title Depoimentos
 </template>
 
 <script lang="ts">

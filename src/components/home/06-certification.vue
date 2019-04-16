@@ -1,5 +1,8 @@
-/<template lang="pug">
-  h2 Certificações  
+<template lang="pug">
+section.section.container
+  .columns
+    .column.is-two-thirds.content
+      h2.title Certificações
 </template>
 
 <script lang="ts">
