@@ -1,0 +1,16 @@
+/<template lang="pug">
+  h2 {{ headline }}
+  p {{ subHead }}
+</template>
+
+<script lang="ts">
+export default {
+  name: 'mainCta',
+  data() {
+    return {
+      headline: 'Vamos manter contato',
+      subHead: 'Todos os nossos conteúdos mais recentes para profissionais de email marketing entregues na sua caixa de entrada algumas vezes por mês',
+    }
+  },
+};
+</script>

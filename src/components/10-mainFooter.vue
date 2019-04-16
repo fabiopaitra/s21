@@ -1,4 +1,4 @@
-<template <template lang="pug">
+<template lang="pug">
 footer.footer.has-background-grey-lighter
   .container.columns
     .column.content.is-small
@@ -56,12 +56,9 @@ footer.footer.has-background-grey-lighter
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
-
-@Component
-export default class MainFooter extends Vue {
-  @Prop() private msg!: string;
-}
+export default {
+  name: 'mainFooter',
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

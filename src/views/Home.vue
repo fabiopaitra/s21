@@ -1,28 +1,49 @@
 <template lang="pug">
   div
-    MainNavBar
-    HomeTiles
-    HeroBanner
-    MainCtaFooter
-    MainFooter
+    hero
+    benefits
+    charts
+    reciprocity
+    comparison
+    companies
+    certification
+    socialProof
+    mainCta
+    urgency
+    faq
+    mainFooter
 
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import MainNavBar from '@/components/MainNavBar.vue'; // @ is an alias to /src
-import HeroBanner from '@/components/HeroBanner.vue'; // @ is an alias to /src
-import HomeTiles from '@/components/HomeTiles.vue'; // @ is an alias to /src
-import MainCtaFooter from '@/components/MainCtaFooter.vue'; // @ is an alias to /src
-import MainFooter from '@/components/MainFooter.vue'; // @ is an alias to /src
+import hero from '@/components/home/00-hero.vue';
+import benefits from '@/components/home/01-benefits.vue';
+import charts from '@/components/home/02-charts.vue';
+import reciprocity from '@/components/home/03-reciprocity.vue';
+import comparison from '@/components/home/04-comparison.vue';
+import companies from '@/components/home/05-companies.vue';
+import certification from '@/components/home/06-certification.vue';
+import socialProof from '@/components/home/07-socialProof.vue';
+import mainCta from '@/components/08-mainCta.vue';
+import urgency from '@/components/home/09-urgency.vue';
+import faq from '@/components/home/10-faq.vue';
+import mainFooter from '@/components/10-mainFooter.vue';
 
 @Component({
   components: {
-    MainNavBar,
-    HeroBanner,
-    HomeTiles,
-    MainCtaFooter,
-    MainFooter,
+    hero,
+    benefits,
+    charts,
+    reciprocity,
+    comparison,
+    companies,
+    certification,
+    socialProof,
+    mainCta,
+    urgency,
+    faq,
+    mainFooter,
   },
 })
 export default class Home extends Vue {}
