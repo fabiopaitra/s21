@@ -1,16 +1,16 @@
 <template lang="pug">
   div
     hero
-    benefits
+    // benefits
     charts
-    reciprocity
-    comparison
-    companies
-    certification
-    socialProof
-    urgency
-    faq
-    mainCta
+    // reciprocity
+    // comparison
+    // companies
+    // certification
+    // socialProof
+    // urgency
+    // faq
+    // mainCta
     mainFooter
 
 </template>

@@ -1,16 +1,37 @@
 <template lang="pug">
-section.section.container
+section.section.container.content
   .columns
-    .column.is-two-thirds.content
-      h2.title Growth Marketing
-      p O growth marketing ou growth hacking, empresta algumas técnicas da metodologia Lean, como abordagem científica para teste de aquisição do cliente. Se o teste é bem sucedido, o processo é automatizado escalado para a empresa.
-      p Startups enfrentando grandes corporações, com um poder de investimento infinitamente menor. Insatisfeito pelo serviço prestado por grandes corporações, empreendedores e usuários, buscam formas diferente de pensar e executar. Através da velocidade e timing de mercado, temos uma abordagem baseada em experimentação rápida focada em resultados e dados. David versus Golias é o que encontramos no dia a dia.
-      p Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor...
-      p Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor...
+    .column
+      h1.title Por que o Marketing Digital está crescendo?
+  .columns
+    .column.is-half
+      h4.subtitle Canais tradicionais de marketing estão saturados e caros. Empresas e produtos têm recursos limitados, elas precisam ser criativas para adquirir novos usuários e retê-los e assim, gerar crescimento. 
+      p Com a democratização da tecnologia, a maioria dos projetos concentram-se fortemente no produto, mas o desafio real de hoje é a distribuição.
+      
+      p Dos times de marketing do Vale do Silício, a metodologia de Growth Marketing - ou Growth Hacking, ensinou pequenas empresas e startups que possuem menor esforço de investimento a enfrentar grandes corporações.
+      p Dropbox enfrenta Google, Microsoft e Apple no mercado de armazenamento em nuvem. Um produto de baixo custo, o custo de aquisição de novos clientes não pode ser alto. Solução? Growth Marketing.
+
+      p Time especializado em crescimento, chamado de Growth Team dentro do Vale, profissionais de tecnologia, data science, psicologia do comportamento, design de interação e usabilidade é possível aplicar o processo de Design Sprint do Google em cada meta do negócio. 
+      p Entender o momento da empresa, a maturação do produto e testar os canais de aquisição dos nossos melhores clientes, é fundamental validar o processo antes de automatizar e escalar.
+
+      a(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger").button
+        span Agende um café e leve o melhor pinhão do Paraná
+        span.icon
+          i.fab.fa-facebook-messenger
+          
+
+
     .column
       figure.image
         img(src="../../assets/images/growth-marketing.png", alt="Growth Hacking na prática")
   
+
+
+  
+
+
+
+
 
       
 </template>

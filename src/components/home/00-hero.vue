@@ -1,5 +1,5 @@
 <template <template lang="pug">
-header.hero.is-primary.is-bold.is-fullheight
+header.hero.is-primary.is-bold
   .hero-head
     nav.navbar(role="navigation", aria-label="main navigation")
       .navbar-brand
@@ -19,10 +19,10 @@ header.hero.is-primary.is-bold.is-fullheight
           a.navbar-item Retenção
   .hero-body
     .container
-      h2.title.is-size-1.is-spaced
-        | Lidere com 
-        span.has-text-danger dados
-      h1.subtitle
+      p.title.is-size-1.is-spaced
+        | Decubra seu potencial de 
+        span.gradient crescimento
+      p.subtitle
         | Melhore o objetivo, a conversão e o ROI. Analise o sentimento do cliente e aumente o conhecimento sobre a marca.
       .level
         .item-level(:id="`hubspot-form-${hubspotFormId}`")
