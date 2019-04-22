@@ -1,12 +1,32 @@
 <template lang="pug">
-section.section.container
+section.section.container.content
   .columns
-    .column.is-two-thirds.content
-      h2.title Growth Hacking na prática
-      p Faça o download do ebook, que detalha o processo de Growth Hacking  
+    .column
+      h1.title O que é Marketing Digital?
   .columns
-    .column    
-      div(:id="`hubspot-form-${hubspotFormId}`")
+    .column
+      h4.subtitle Marketing digital é encontrar o canal de aquisição do seu melhor cliente e investir neste canal. Se existe um take away desta página, é este.
+      p Canais conhecidos:
+      ul
+        li Busca orgânica (Google search)
+        li Busca paga (Google Ads)
+        li Display (Google Ads)
+        li Facebook 
+        li Instagram
+        li Whatsapp
+      p Entretanto, estes canais estão ficando saturados e dependendo do nicho, é importante ser criativo para aumentar o ROI e entender a intenção do cliente por trás dos dados que ferramentas de analytics como Google Analytics, Hotjar e Hubspot oferecem.
+      p Além da preocupação de topo de funil para aquisição de novos leads, uma agência de marketing digital moderna, chamado de growth marketing ou growth hacking, deve ter o pensamento estratégico voltado a todos os pontos de contato do cliente com a marca.
+      p Começar pela pesquisa de mercado é importante para avaliar o posicionamento da marca, os erros e acertos dos concorrentes e principalmente se há uma demanda latente pelo produto. Estes dados ajudam a definir as metas da empresa a longo, médio e curto prazo.
+      p O produto participa da estratégia do marketing. O market fit acontece quando o produto é considerado maduro, com a qualidade esperada e aderência da oferta ao público consumidor.
+      p Agora, a agência de marketing digital pode entender o mercado e o produto para enfim gerar valor e conexão. Focar nos benefícios percebidos através de uma pesquisa, escrever um texto interessante para cativar e prender o interesse do público, se preocupar de forma genuína como resolver o ponto de dor do cliente. Esse deve ser o papel na comunicação do marketing.
+
+
+ 
+      a(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger").button
+        span Agende um café
+        span.icon
+          i.fab.fa-facebook-messenger
+
 </template>
 
 <script>

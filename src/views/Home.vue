@@ -3,8 +3,8 @@
     hero
     // benefits
     charts
-    // reciprocity
-    // comparison
+    reciprocity
+    comparison
     // companies
     // certification
     // socialProof
