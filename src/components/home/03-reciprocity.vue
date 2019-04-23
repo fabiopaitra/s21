@@ -1,16 +1,14 @@
 <template lang="pug">
-section.hero.section.is-dark
-  .hero-body
-    .columns.has-text-centered.content
+section.section.has-background-dark.content
+    .columns.has-text-centered
       .column
         h1.title.has-text-white-ter O que é Marketing Digital?
-    .columns.content
+    .columns
       .column
           figure.image
             img(src="../../assets/images/grafico-exponencial_1.png", alt="Growth Hacking na prática")
       .column.has-text-white-ter
-        h4.subtitle
-          span.gradient Marketing digital é encontrar o canal de aquisição do seu melhor cliente e investir neste canal. Se existe um take away desta página, é este.
+        h4.subtitle.has-text-grey-light Marketing digital é encontrar o canal de aquisição do seu melhor cliente e investir neste canal. Se existe um take away desta página, é este.
         p Entretanto, estes canais estão ficando saturados e dependendo do nicho, é importante ser criativo para aumentar o ROI e entender a intenção do cliente por trás dos dados que ferramentas de analytics como Google Analytics, Hotjar e Hubspot oferecem.
         p Além da preocupação de topo de funil para aquisição de novos leads, uma agência de marketing digital moderna, chamado de growth marketing ou growth hacking, deve ter o pensamento estratégico voltado a todos os pontos de contato do cliente com a marca.
         p Começar pela pesquisa de mercado é importante para avaliar o posicionamento da marca, os erros e acertos dos concorrentes e principalmente se há uma demanda latente pelo produto. Estes dados ajudam a definir as metas da empresa a longo, médio e curto prazo.
