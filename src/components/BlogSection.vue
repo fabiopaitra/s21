@@ -2,9 +2,9 @@
 main.columns
   article.column
     figure.image.is-square.is-hidden-desktop
-      img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
-    figure.image.is-3by1.is-hidden-touch
-      img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
+    //   img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
+    // figure.image.is-3by1.is-hidden-touch
+    //   img(src="../assets/images/seo-para-alavancar-sua-pequena-empresa.jpg", alt="O que é SEO e dicas rápidas e práticas")
     .column.has-background-light
       nav.breadcrumb(aria-label='breadcrumbs').container
         ul(itemscope='', itemtype='http://schema.org/BreadcrumbList')

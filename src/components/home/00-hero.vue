@@ -1,5 +1,5 @@
-<template <template lang="pug">
-header.hero.is-primary.is-bold
+<template lang="pug">
+header.hero.is-primary.is-bold.is-fullheight
   .hero-head
     nav.navbar(role="navigation", aria-label="main navigation")
       .navbar-brand

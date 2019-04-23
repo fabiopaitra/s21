@@ -1,6 +1,6 @@
 <template lang="pug">
 section.section.container.content
-  .columns
+  .columns.has-text-centered
     .column
       h1.title Por que utilizar Marketing Digital?
   .columns
@@ -22,7 +22,7 @@ section.section.container.content
 
     .column
       figure.image
-        img(src="../../assets/images/growth-marketing.png", alt="Growth Hacking na prática")
+        img(src="../../assets/images/growth-hacking.png", alt="Growth Hacking na prática")
   
 
 
