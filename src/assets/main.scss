@@ -13,3 +13,5 @@
 @import '../../node_modules/bulma/sass/layout/section.sass';
 
 
+$aos-distance: 5vh; // It has to be above import
+@import 'node_modules/aos/src/sass/aos.scss';

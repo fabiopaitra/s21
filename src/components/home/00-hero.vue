@@ -19,12 +19,12 @@ header.hero.is-primary.is-bold.is-fullheight
           a.navbar-item Retenção
   .hero-body
     .container
-      p.title.is-size-1.is-spaced
+      p(data-aos='fade', data-aos-offset='100', data-aos-delay='100', data-aos-duration='800').title.is-size-1.is-spaced
         | Decubra seu potencial de 
         span.gradient crescimento
-      p.subtitle
+      p(data-aos='fade', data-aos-offset='100', data-aos-delay='400', data-aos-duration='800').subtitle
         | Melhore o objetivo, a conversão e o ROI. Analise o sentimento do cliente e aumente o conhecimento sobre a marca.
-      .level
+      .level(data-aos='fade', data-aos-offset='100', data-aos-delay='800', data-aos-duration='800', data-aos-easing='ease-out-sine')
         .item-level(:id="`hubspot-form-${hubspotFormId}`")
 
 

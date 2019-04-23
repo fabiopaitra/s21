@@ -19,7 +19,7 @@ const router = new VueRouter({
         title: 'Agência de Marketing Digital em Curitiba - s21digital',
         metaTags: [{
           name: 'description',
-          content: 'Empresa de Marketing Digital Curitiba independente. Inbound Marketing especializado em SEO e automação de marketing.',
+          content: 'Empresa de Marketing Digital em Curitiba. Inbound Marketing especializado em SEO e automação de marketing.',
         },
         ],
       },
