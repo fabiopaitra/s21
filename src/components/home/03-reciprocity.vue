@@ -2,10 +2,10 @@
 section.section.has-background-dark.content
     .columns.has-text-centered
       .column
-        h1(data-aos='fade-up', data-aos-offset='200', data-aos-delay='150', data-aos-duration='1000').title.has-text-white-ter O que é Marketing Digital?
+        h1(data-aos='fade-down', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000', data-aos-easing='ease-in-out-quad').title.has-text-white-ter O que é Marketing Digital?
     .columns
       .column
-          figure.image
+          figure.image(data-aos='fade-right', data-aos-offset='100', data-aos-delay='200', data-aos-duration='2000', data-aos-easing='ease-in-out-quad')
             img(src="../../assets/images/grafico-exponencial_1.png", alt="Growth Hacking na prática")
       .column.has-text-white-ter
         h4.subtitle.has-text-grey-light Marketing digital é encontrar o canal de aquisição do seu melhor cliente e investir neste canal. Se existe um take away desta página, é este.

@@ -2,7 +2,7 @@
 section.section.container.content
   .columns.has-text-centered
     .column
-      h1.title Como executar o Marketing Digital?
+      h1(data-aos='fade-up', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000', data-aos-easing='ease-in-out-quad').title Como executar o Marketing Digital?
   .columns
     .column
       h4.subtitle O investidor anjo e CEO da "500 Startups", Dave McClure ampliou o modelo tradicional de funil de venda com 5 momentos em que chamou de "Pirates funnel".
@@ -11,7 +11,7 @@ section.section.container.content
 
   .columns
     .column
-      figure.image
+      figure.image(data-aos='fade-left', data-aos-offset='200', data-aos-delay='200', data-aos-duration='2000', data-aos-easing='ease-in-out-quad')
         img(src="../../assets/images/funil-marketing-2019.png", alt="Funil de Marketing Digital 2019")
   
       
