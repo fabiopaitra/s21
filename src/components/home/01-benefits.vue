@@ -16,9 +16,9 @@ section.section.has-background-light
                     .media-content
                       p.subtitle.is-6.has-text-grey-light AQUISIÇÃO
                       p.title.is-4
-                        router-link(:to="{ name: 'Seo' }") Tornar você líder é nossa missão
+                        router-link(:to="{ name: 'Seo' }") Aumente seu tráfego
                   .content
-                    | Alinhe as estratégias para analisar as evoluções do mercado, o sentimento do cliente e as tendências. Impulsione o ROI de marketing graças a um melhor desempenho no direcionamento de campanhas.
+                    | Encontre novos prospects sem desperdiçar investimento em canais saturados e assertivos para seu produto. Impulsione o ROI da sua startup graças a um melhor desempenho no direcionamento de campanhas.
           .tile
           .tile.is-parent.is-4
             article.tile.is-child
@@ -32,9 +32,9 @@ section.section.has-background-light
                     .media-content
                       p.subtitle.is-6.has-text-grey-light ATIVAÇÃO
                       p.title.is-4
-                        router-link(:to="{ name: 'Seo' }") Prepare-se para conquistar seu espaço na era digital
+                        router-link(:to="{ name: 'Seo' }") Fechar e gerenciar leads
                   .content
-                    | Amplifique seus canais de aquisição criando conteúdo mais atraente e anúncios mais eficazes com insights orientados por dados.
+                    | Conecte com seus leads criando conteúdo mais atraente e anúncios mais eficazes orientados por dados. Defina o modelo de atribuição multicanal e automatize seu marketing com leadscore preditivo.
           .tile
           .tile.is-parent.is-4
             article.tile.is-child
@@ -48,7 +48,7 @@ section.section.has-background-light
                     .media-content
                       p.subtitle.is-6.has-text-grey-light RETENÇÃO
                       p.title.is-4
-                        router-link(:to="{ name: 'Seo' }") Faça a jornada do cliente mais empolgante
+                        router-link(:to="{ name: 'Seo' }") Melhore a retenção do seu cliente
                   .content
                     | Seja pioneiro diariamente com uma análise  de ponta a ponta criada para transformar toda a sua startup.
 </template>

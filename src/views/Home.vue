@@ -1,7 +1,7 @@
 <template lang="pug">
   div
     hero
-    // benefits
+    benefits
     charts
     reciprocity
     comparison

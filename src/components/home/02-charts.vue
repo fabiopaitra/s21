@@ -20,7 +20,7 @@ section.section.container.content
           
 
 
-    .column(data-aos='zoom-out-left', data-aos-offset='400', data-aos-delay='100', data-aos-duration='2000', data-aos-easing='ease-in-out-quad')
+    .column(data-aos='fade-left', data-aos-offset='400', data-aos-delay='100', data-aos-duration='2000', data-aos-easing='ease-in-out-quad')
       figure.image
         img(src="../../assets/images/growth-hacking.png", alt="Growth Hacking na prática")
   
