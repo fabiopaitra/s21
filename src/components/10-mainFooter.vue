@@ -1,26 +1,26 @@
 <template lang="pug">
 footer.footer.has-background-grey-lighter
   .container.columns
-    .column.content.is-small
+    // .column.content.is-small
       h4 Aumente seu tráfego
       p: a.has-text-dark Mídia de Performance
       p: a.has-text-dark SEO
       p: a.has-text-dark Redes Sociais
       p: a.has-text-dark Otimização de conteúdo
-    .column.content.is-small
+    // .column.content.is-small
       h4 Conecte com seus leads
       p: a.has-text-dark Encontre novos prospects
       p: a.has-text-dark Régua de automação
       p: a.has-text-dark Lead Scoring
       p: a.has-text-dark Remarketing
-    .column.content.is-small
+    // .column.content.is-small
       h4 Fechar e gerenciar leads
       p: a.has-text-dark Automação de vendas
       p: a.has-text-dark Gerenciamento de pipelines
       p: a.has-text-dark Programa de Rewards
       p: a.has-text-dark Cross e Up Selling
       
-    .column.content.is-small
+    // .column.content.is-small
       h4 Suporte e ferramentas
       p: a.has-text-dark Ferramentas
       p: a.has-text-dark Empresa e equipe

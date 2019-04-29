@@ -11,8 +11,8 @@ header.hero.is-primary.is-bold.is-fullheight
   .hero-body
     .container
       h2(data-aos='fade', data-aos-delay='0', data-aos-duration='2000', data-aos-easing='ease-in-out-quad').title.is-size-1.is-spaced
-        | Decubra seu potencial de 
-        span.gradient crescimento
+        | Aumente suas 
+        span.gradient vendas
       h1(data-aos='fade', data-aos-delay='1000', data-aos-duration='2000').subtitle
         | Agência de Growth Hacking em Curitiba que ajuda startups a alcançar um crescimento rápido e sustentável.
           
