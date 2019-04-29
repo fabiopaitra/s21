@@ -33,3 +33,14 @@ $subtitle-weight: 400 !important
   background-position: center bottom
   color: transparent
 
+.hero
+  &.has-background
+    position: relative
+    overflow: hidden
+  &-background
+    position: absolute
+    object-fit: cover
+    object-position: center center
+    width: 50vh
+    &.is-transparent
+      opacity: 0.1

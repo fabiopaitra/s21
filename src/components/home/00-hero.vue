@@ -8,22 +8,14 @@ header.hero.is-primary.is-bold.is-fullheight
             text#s_21(data-name="s21", transform="translate(0 30)", fill="#ee2b5c", font-size="39", font-family="Helvetica-Bold, Helvetica", font-weight="700")
               tspan(x="0", y="0") s
               tspan(x="0", y="24") 21
-        a.navbar-burger(role='button', data-target='navMenu', aria-label='menu', aria-expanded='false')
-          span(aria-hidden="true")
-          span(aria-hidden="true")
-          span(aria-hidden="true")
-      #navMenu.navbar-menu
-        .navbar-end.container
-          a.navbar-item Aquisição
-          a.navbar-item Ativação
-          a.navbar-item Retenção
   .hero-body
     .container
-      p(data-aos='fade', data-aos-delay='0', data-aos-duration='2000', data-aos-easing='ease-in-out-quad').title.is-size-1.is-spaced
+      h2(data-aos='fade', data-aos-delay='0', data-aos-duration='2000', data-aos-easing='ease-in-out-quad').title.is-size-1.is-spaced
         | Decubra seu potencial de 
         span.gradient crescimento
-      p(data-aos='fade', data-aos-delay='1000', data-aos-duration='2000').subtitle
-        | Melhore o objetivo, a conversão e o ROI. Analise o sentimento do cliente e aumente o conhecimento sobre a marca.
+      h1(data-aos='fade', data-aos-delay='1000', data-aos-duration='2000').subtitle
+        | Agência de Growth Hacking em Curitiba que ajuda startups a alcançar um crescimento rápido e sustentável.
+          
       .level(data-aos='fade', data-aos-delay='2000', data-aos-duration='2500', data-aos-easing='ease-out-sine')
         .item-level(:id="`hubspot-form-${hubspotFormId}`")
 

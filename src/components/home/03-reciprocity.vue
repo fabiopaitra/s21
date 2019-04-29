@@ -2,7 +2,7 @@
 section.section.has-background-dark.content
     .columns.has-text-centered
       .column
-        h1(data-aos='fade-down', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000', data-aos-easing='ease-in-out-quad').title.has-text-white-ter O que é Marketing Digital?
+        h2(data-aos='fade-down', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000', data-aos-easing='ease-in-out-quad').title.has-text-white-ter O que é Marketing Digital?
     .columns
       .column
           figure.image(data-aos='fade-right', data-aos-offset='100', data-aos-delay='200', data-aos-duration='2000', data-aos-easing='ease-in-out-quad')

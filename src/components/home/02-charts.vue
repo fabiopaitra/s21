@@ -2,7 +2,7 @@
 section.section.container.content
   .columns.has-text-centered
     .column
-      h1.title(data-aos='fade-up', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000' data-aos-easing='ease-in-out-quad') Por que utilizar Marketing Digital?
+      h2.title(data-aos='fade-up', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000' data-aos-easing='ease-in-out-quad') Por que utilizar Marketing Digital?
   .columns
     .column.is-half
       h4.subtitle Canais tradicionais de marketing estão saturados e caros. Empresas têm recursos limitados, elas precisam ser criativas para adquirir novos usuários e retê-los e assim, gerar crescimento. 
