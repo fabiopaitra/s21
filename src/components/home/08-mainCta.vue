@@ -10,8 +10,9 @@ export default {
     return {
       headline: 'Vamos manter contato',
       // tslint:disable-next-line:max-line-length
-      subHead: 'Todos os nossos conteúdos mais recentes para profissionais de email marketing entregues na sua caixa de entrada algumas vezes por mês',
-      };
+      subHead:
+        'Todos os nossos conteúdos recentes para profissionais de email marketing entregues na sua caixa de entrada algumas vezes por mês',
+    };
   },
 };
 </script>

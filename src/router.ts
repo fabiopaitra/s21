@@ -33,7 +33,7 @@ const router = new VueRouter({
         metaTags: [
           {
             name: 'description',
-            content: 'Tutorial de SEO passo-a-passo avançado de como obter mais tráfego orgânico',
+            content: 'Tutorial de SEO passo-a-passo avançado de como obter tráfego orgânico',
           },
           {
             property: 'og:description',

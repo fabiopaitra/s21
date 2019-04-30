@@ -10,7 +10,7 @@ section.section.has-background-light
                 .card-image
                   figure.image.is-5by4
                     router-link(:to="{ name: 'Seo' }")
-                      img(src="../assets/images/atracao.png", alt="Nossa missão é tornar você líder")
+                      img(src="../assets/images/atracao.png", alt="Atrair novos usuários")
                 .card-content
                   .media
                     .media-content
@@ -34,7 +34,7 @@ section.section.has-background-light
                       p.title.is-4
                         router-link(:to="{ name: 'Seo' }") Prepare-se para conquistar seu espaço na era digital
                   .content
-                    | Amplifique seus canais de aquisição criando conteúdo mais atraente e anúncios mais eficazes com insights orientados por dados.
+                    | Amplifique seus canais de aquisição criando conteúdo atraente e anúncios eficazes com insights orientados por dados.
           .tile
           .tile.is-parent.is-4
             article.tile.is-child
@@ -48,7 +48,7 @@ section.section.has-background-light
                     .media-content
                       p.subtitle.is-6.has-text-grey-light RETENÇÃO
                       p.title.is-4
-                        router-link(:to="{ name: 'Seo' }") Faça a jornada do cliente mais empolgante
+                        router-link(:to="{ name: 'Seo' }") Faça a jornada do cliente empolgante
                   .content
                     | Seja pioneiro diariamente com uma análise  de ponta a ponta criada para transformar toda a sua startup.
 </template>

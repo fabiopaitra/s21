@@ -2,13 +2,13 @@
   div
     hero
     benefits
-    charts
-    reciprocity
-    comparison
+    // charts
+    // reciprocity
+    // comparison
     // companies
     // certification
     // socialProof
-    // urgency
+    urgency
     // faq
     // mainCta
     mainFooter

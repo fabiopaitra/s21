@@ -14,7 +14,7 @@ header.hero.is-primary.is-bold.is-fullheight
         | Aumente suas 
         span.gradient vendas
       h1(data-aos='fade', data-aos-delay='1000', data-aos-duration='2000').subtitle
-        | Agência de Growth Hacking em Curitiba que ajuda startups a alcançar um crescimento rápido e sustentável.
+        | Agência de Growth Hacking em Curitiba que ajuda startups a alcançarem um crescimento rápido e sustentável.
           
       .level(data-aos='fade', data-aos-delay='2000', data-aos-duration='2500', data-aos-easing='ease-out-sine')
         .item-level(:id="`hubspot-form-${hubspotFormId}`")
