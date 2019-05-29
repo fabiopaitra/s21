@@ -1,13 +1,14 @@
 <template lang="pug">
-section.section.has-background-light
+section.section.has-background-light.content
   header
-    h2.title.has-text-centered(data-aos='fade', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000' data-aos-easing='ease-in-out-quad') Nossos serviços
+    h2.title.is-2.has-text-centered Há uma maneira melhor de crescer
+    p.has-text-centered Canais tradicionais de marketing estão saturados e caros. Empresas têm recursos limitados, elas precisam ser criativas para adquirir novos usuários e retê-los e assim, gerar crescimento. Nossos serviços ajudam sua empresa a crescer sem compromisso. Porque o que é bom para a empresa, também deve ser bom para o cliente.
     .tile.is-ancestor
       .tile.is-vertical
         .tile
           .tile.is-parent.is-4
             article.tile.is-child
-              .card(data-aos='fade-up', data-aos-offset='200', data-aos-delay='0', data-aos-duration='1000', data-aos-easing='ease-in-out-quad')
+              .card
                 .card-image
                   figure.image.is-5by4
                     router-link(:to="{ name: 'Seo' }")
@@ -15,7 +16,7 @@ section.section.has-background-light
                 .card-content
                   .media
                     .media-content
-                      p.subtitle.is-6.has-text-primary AQUISIÇÃO
+                      h3.subtitle.is-6.has-text-primary AQUISIÇÃO
                       p.title.is-4
                         router-link(:to="{ name: 'Seo' }") Otimize investimentos e torne-se líder de mercado 
                   .content
@@ -29,7 +30,7 @@ section.section.has-background-light
           .tile
           .tile.is-parent.is-4
             article.tile.is-child
-              .card(data-aos='fade-up', data-aos-offset='200', data-aos-delay='200', data-aos-duration='1000', data-aos-easing='ease-in-out-quad')
+              .card
                 .card-image
                   figure.image.is-5by4
                     router-link(:to="{ name: 'Seo' }")
@@ -37,7 +38,7 @@ section.section.has-background-light
                 .card-content
                   .media
                     .media-content
-                      p.subtitle.is-6.has-text-primary RETENÇÃO
+                      h3.subtitle.is-6.has-text-primary RETENÇÃO
                       p.title.is-4
                         router-link(:to="{ name: 'Seo' }") Faça a jornada do usuário empolgante
                   .content
@@ -47,7 +48,7 @@ section.section.has-background-light
           .tile
           .tile.is-parent.is-4
             article.tile.is-child
-              .card(data-aos='fade-up', data-aos-offset='200', data-aos-delay='400', data-aos-duration='1000', data-aos-easing='ease-in-out-quad')
+              .card
                 .card-image
                   figure.image.is-5by4
                     router-link(:to="{ name: 'Seo' }")
@@ -55,7 +56,7 @@ section.section.has-background-light
                 .card-content
                   .media
                     .media-content
-                      p.subtitle.is-6.has-text-primary AMPLIAÇÃO
+                      h3.subtitle.is-6.has-text-primary AMPLIAÇÃO
                       p.title.is-4
                         router-link(:to="{ name: 'Seo' }") Prepare-se para expandir sua receita
                   .content

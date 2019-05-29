@@ -11,13 +11,11 @@ header.hero.is-primary.is-bold.is-fullheight
   .hero-body
     .container
       h2(data-aos='fade', data-aos-delay='0', data-aos-duration='2000', data-aos-easing='ease-in-out-quad').title.is-size-1.is-spaced
-        | Aumente suas 
-        span.gradient vendas
+        | Como criar uma marca
+        span.gradient moderna?
       h1(data-aos='fade', data-aos-delay='1000', data-aos-duration='2000').subtitle
-        | Agência de Growth Hacking em Curitiba que ajuda startups a alcançarem um crescimento rápido e sustentável.
-          
-      .level(data-aos='fade', data-aos-delay='2000', data-aos-duration='2500', data-aos-easing='ease-out-sine')
-        .item-level(:id="`hubspot-form-${hubspotFormId}`")
+        | Agência de Growth Hacking em Curitiba que ajuda a alcançarem um crescimento rápido e sustentável.
+        //- .item-level(:id="`hubspot-form-${hubspotFormId}`")
 
 
   </template>
