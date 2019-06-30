@@ -4,8 +4,8 @@
     benefits
     //- charts
     //- reciprocity
-    comparison
-    //- companies
+    //- comparison
+    companies
     //- certification
     //- socialProof
     urgency
