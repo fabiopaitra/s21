@@ -2,7 +2,11 @@
   section.section.has-background-black-bis
     header.container.has-text-light.content
       h2.title.is-2.has-text-centered.has-text-light Trabalhos desenvolvidos 
-      p.has-text-centered Trabalhos desenvolvidos sendo um braço interno do cliente. É importante desenvolver um projeto e que a agência tenha de forma clara as metas do cliente, e que muitas vezes ajude inclusive a desenvolver as metas junto com o cliente. Assim é possível mensurar cada etapa e chegar ao resultado sem surpresas negativas durante o caminho.
+      p.has-text-centered
+      | Ao desenvolver uma campanha, é importante que as metas sejam claras. Mensurar cada etapa com controle para chegar ao resultado sem surpresas negativas. Esta é a metodologia aplicada pela s21. Com essa premissa, propomos aos nossos clientes, trabalhar com o modelo de 
+      strong
+        em.has-text-light Success Fee
+      | , onde ganhamos com o sucesso das metas atingidas.
     .tile.is-ancestor
       .tile.is-vertical
         .tile
@@ -16,15 +20,9 @@
                   .media
                     .media-content
                       h4.title.is-4.has-text-light Editora Nossa Cultura
-                      p.subtitle.is-6 @fabiopaitra
-                  .content
-                    p.has-text-grey
+                  .content.has-text-light
+                    p
                     | Mais de 20 capas, sendo vitrine nas maiores livrarias do Brasil, desenvolvidas durante 2 anos. 
-                    a @nossacultura                     
-                    a(href="#") #design 
-                    a(href="#") #nelsonMandela
-                    br
-                    time(datetime="2013-24-5") 05 de Março 2013
         
           .tile.is-parent.is-vertical.is-3
             article.tile.is-child
@@ -36,15 +34,9 @@
                   .media
                     .media-content
                       h4.title.is-4.has-text-light Associação Brasileira de Marketing de Dados
-                      p.subtitle.is-6 @fabiopaitra
-                  .content
-                    p.has-text-grey
-                    | Mais de 20 capas, sendo vitrine nas maiores livrarias do Brasil, desenvolvidas durante 2 anos. 
-                    a @nossacultura                     
-                    a(href="#") #design 
-                    a(href="#") #nelsonMandela
-                    br
-                    time(datetime="2013-24-5") 05 de Março 2013
+                  .content.has-text-light
+                    p
+                    | Hotsite como foco em apresentar e captar alunos para o curso de Marketing de Dados oferecido pela Abemd em São Paulo durante 2017. 
             article.tile.is-child
               .card.has-background-black-ter
                 .card-image
@@ -54,15 +46,9 @@
                   .media
                     .media-content
                       h4.title.is-4.has-text-light HSBC Bank Brasil
-                      p.subtitle.is-6 @fabiopaitra
-                  .content
-                    p.has-text-grey
-                    | Mais de 20 capas, sendo vitrine nas maiores livrarias do Brasil, desenvolvidas durante 2 anos. 
-                    a @nossacultura                     
-                    a(href="#") #design 
-                    a(href="#") #nelsonMandela
-                    br
-                    time(datetime="2013-24-5") 05 de Março 2013
+                  .content.has-text-light
+                    p
+                    | Desenvolvimento do HTML para e-mail marketing com os padrões de segurança e qualidade de código exigidos pelo HSBC Brasil. 
             article.tile.is-child
               .card.has-background-black-ter
                 .card-image
@@ -72,15 +58,9 @@
                   .media
                     .media-content
                       h4.title.is-4.has-text-light InovaBra - Bradesco
-                      p.subtitle.is-6 @fabiopaitra
-                  .content
-                    p.has-text-grey
-                    | Mais de 20 capas, sendo vitrine nas maiores livrarias do Brasil, desenvolvidas durante 2 anos. 
-                    a @nossacultura                     
-                    a(href="#") #design 
-                    a(href="#") #nelsonMandela
-                    br
-                    time(datetime="2013-24-5") 05 de Março 2013
+                  .content.has-text-light
+                    p
+                    | Landing Page em VueJS com objetivo de apresentar o Book de Startups aceleradas pelo InovaBra do Bradesco
           .tile.is-parent.is-vertical.is-3
             article.tile.is-child
               .card.has-background-black-ter
@@ -91,15 +71,9 @@
                   .media
                     .media-content
                       h4.title.is-4.has-text-light Avon Brasil
-                      p.subtitle.is-6 @fabiopaitra
-                  .content
-                    p.has-text-grey
-                    | Mais de 20 capas, sendo vitrine nas maiores livrarias do Brasil, desenvolvidas durante 2 anos. 
-                    a @nossacultura                     
-                    a(href="#") #design 
-                    a(href="#") #nelsonMandela
-                    br
-                    time(datetime="2013-24-5") 05 de Março 2013
+                  .content.has-text-light
+                    p
+                    | E-mail Marketing para EVA, o programa de relacionamento da Avon Brasil. 
             article.tile.is-child
               .card.has-background-black-ter
                 .card-image
@@ -109,15 +83,9 @@
                   .media
                     .media-content
                       h4.title.is-4.has-text-light EducationLink
-                      p.subtitle.is-6 @fabiopaitra
-                  .content
-                    p.has-text-grey
-                    | Mais de 20 capas, sendo vitrine nas maiores livrarias do Brasil, desenvolvidas durante 2 anos. 
-                    a @nossacultura                     
-                    a(href="#") #design 
-                    a(href="#") #nelsonMandela
-                    br
-                    time(datetime="2013-24-5") 05 de Março 2013
+                  .content.has-text-light
+                    p
+                    | Nosso objetivo era validar e escalar. Em 3 meses, implantamos o modelo de Leadscoring com aumento de 5x a ˜ão de novos clientes. Em SEO, foi possível chegar a primeira posição nos principais termos para o negócio. Google e Facebook Ads entraram como suporte nos 7 touchpoints projetados para atender a fluxo de decisão da startup.
 
             
 </template>

@@ -15,7 +15,7 @@ header.hero.is-primary.is-bold.is-fullheight
         span.gradient atual?
       h1.subtitle
         | Agência de Growth Hacking em Curitiba que ajuda a alcançarem um crescimento rápido e sustentável.
-        //- .item-level(:id="`hubspot-form-${hubspotFormId}`")
+        .item-level(:id="`hubspot-form-${hubspotFormId}`")
 
 
   </template>
