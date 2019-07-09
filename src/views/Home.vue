@@ -2,12 +2,13 @@
   div
     hero
     benefits
-    //- charts
-    //- reciprocity
-    //- comparison
-    companies
+    chartsWhat
+    chartsHow
     //- certification
     //- socialProof
+    //- reciprocity
+    companies
+    comparison
     urgency
     //- faq
     //- mainCta
@@ -19,7 +20,8 @@
 import { Component, Vue } from 'vue-property-decorator';
 import hero from '@/components/home/00-hero.vue';
 import benefits from '@/components/home/01-benefits.vue';
-import charts from '@/components/home/02-charts.vue';
+import chartsWhat from '@/components/home/02-chartsWhat.vue';
+import chartsHow from '@/components/home/02-chartsHow.vue';
 import reciprocity from '@/components/home/03-reciprocity.vue';
 import comparison from '@/components/home/04-comparison.vue';
 import companies from '@/components/home/05-companies.vue';
@@ -34,7 +36,8 @@ import mainFooter from '@/components/10-mainFooter.vue';
   components: {
     hero,
     benefits,
-    charts,
+    chartsWhat,
+    chartsHow,
     reciprocity,
     comparison,
     companies,

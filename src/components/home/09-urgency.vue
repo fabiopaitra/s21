@@ -1,5 +1,6 @@
 <template <template lang="pug">
-section.section.container.content
+section.section.has-background-light
+  .container.content
     .columns
       .column.is-8
         h2.title Descubra seu potencial de crescimento hoje mesmo

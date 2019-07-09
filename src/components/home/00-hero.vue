@@ -14,7 +14,7 @@ header.hero.is-primary.is-bold.is-fullheight
         | Como desenvolver uma marca 
         span.gradient atual?
       h1.subtitle
-        | Agência de Growth Hacking em Curitiba que ajuda a alcançarem um crescimento rápido e sustentável.
+        | Agência de Marketing Digital em Curitiba, com metodologia Growth Hacking, que ajuda a alcançarem um crescimento rápido e sustentável.
         .item-level(:id="`hubspot-form-${hubspotFormId}`")
 
 

@@ -1,11 +1,31 @@
 <template lang="pug">
 section.section
-  .columns
-    .column.has-text-centered
-      h2.title Sua plataforma para crescimento
-      p Ferramentas que você pode começar usar gratuitamente e atualizar quando expandir.
-  .columns.is-centered
-    .column.is-half
+  .container.content
+    .columns
+      .column.has-text-centered
+        h2.is-2.title Quanto cobramos?
+        h3.subtitle Quanto maior o seu retorno, melhor o nosso investimento.
+
+  .columns.is-centered.container
+    .column.content
+      h5 Nossos serviços são cobrados pelo nosso desempenho no seu negócio.
+      p Pelo volume de vendas fechadas por nós (X) volume atual de vendas. Esse modelo é conhecido por sucess fee. É a forma como agências atuais, preocupadas com o resultado do cliente podem ter uma parceria duradoura e saudável entre os negócios.
+      p Exemplo: ex: 10% a mais de faturamento, nosso percentual é 20%; 20% a mais, nosso percentual pode chegar à 30%, e assim por diante.
+      h5 Porque contratar a s21 Digital e não outras empresas?
+      p 
+        | 
+        strong No Pain, No Gain: 
+        | Somos remunerados por resultados. Não tem entrelinhas nem pormenores, só recebemos por aquilo que efetivarmos.
+      p
+        | 
+        strong O segredo do sucesso: 
+        | Executamos e Integramos o Marketing Digital e o processo de Vendas do seu negócio, através de uma base sólida e confiável de dados, utilizando de muita tecnologia e sob medida para sua empresa.
+      p 
+        | 
+        strong De Brazucas a Aussies e vice-versa: 
+        | Trouxemos o expertise desenvolvido pela nossa equipe na Austrália e somamos aos mais de 9 anos de experiência no mercado Brasileiro para acelerarmos seu negócio.
+
+    .column.is-half.content
       table.table.is-hoverable.is-striped.is-narrow
         thead
           tr
@@ -14,7 +34,7 @@ section.section
             th.has-text-centered Starter
             th.has-text-centered Professional
             th.has-text-centered Enterprise
-        tfoot
+        //- tfoot
           tr
             th Investimento
             td.has-text-centered R$ 0
@@ -26,7 +46,7 @@ section.section
               span.subtitle.is-7 /mês
         tbody
           tr
-            td Potencial de mercado e análise de canais
+            td Potencial de mercado
             td.has-text-centered
               span.icon.has-text-success
                 i.fas.fa-check
@@ -40,7 +60,7 @@ section.section
               span.icon.has-text-success
                 i.fas.fa-check
           tr  
-            td Levantamento e necessidades do negócio
+            td Necessidades do negócio
             td.has-text-centered 
               span.icon.has-text-success
                 i.fas.fa-check
@@ -82,36 +102,7 @@ section.section
               span.icon.has-text-success
                 i.fas.fa-check
           tr  
-            td Definição de ferramentas
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
             td Roadmap de canais
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-
-          tr  
-            td Persona Ideal 
             td.has-text-centered 
               span.icon.has-text-grey
                 i.fas.fa-times
@@ -152,22 +143,8 @@ section.section
             td.has-text-centered 
               span.icon.has-text-success
                 i.fas.fa-check
-          tr  
-            td Validação do Leadscore
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
           tr
-            td Integração entre MQL e SQL
+            td MQL, SQL e Leadscoring
             td.has-text-centered 
               span.icon.has-text-grey
                 i.fas.fa-times
@@ -181,49 +158,7 @@ section.section
               span.icon.has-text-success
                 i.fas.fa-check
           tr  
-            td Brainstorm dos experimentos
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Priorização dos experimentos
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Validação dos experimentos
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Automação dos experimentos
+            td Brainstorm à automação
             td.has-text-centered 
               span.icon.has-text-grey
                 i.fas.fa-times
@@ -251,7 +186,7 @@ section.section
               span.icon.has-text-success
                 i.fas.fa-check
           tr  
-            td Métricas de Customer Success
+            td Customer Success
             td.has-text-centered 
               span.icon.has-text-grey
                 i.fas.fa-times
@@ -265,21 +200,7 @@ section.section
               span.icon.has-text-success
                 i.fas.fa-check
           tr  
-            td Processo de Customer Success
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Validação do Product Market Fit
+            td Product Market Fit
             td.has-text-centered 
               span.icon.has-text-grey
                 i.fas.fa-times
@@ -320,6 +241,9 @@ section.section
             td.has-text-centered 
               span.icon.has-text-success
                 i.fas.fa-check 
+    
+
+
 </template>
 
 <script lang="ts">
