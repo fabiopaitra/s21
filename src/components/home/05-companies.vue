@@ -1,7 +1,7 @@
 <template lang="pug">
   section.section.has-background-black-bis
     header.container.has-text-light.content
-      h2.title.is-2.has-text-centered.has-text-light Trabalhos desenvolvidos 
+      h2.title.is-2.has-text-centered.has-text-light O que fizemos 
       p.has-text-centered
       | Ao desenvolver uma campanha, é importante que as metas sejam claras. Mensurar cada etapa com controle para chegar ao resultado sem surpresas negativas. Esta é a metodologia aplicada pela s21. Com essa premissa, propomos aos nossos clientes, trabalhar com o modelo de 
       strong

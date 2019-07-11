@@ -15,7 +15,7 @@ section.section
       p 
         | 
         strong No Pain, No Gain: 
-        | Somos remunerados por resultados. Não tem entrelinhas nem pormenores, só recebemos por aquilo que efetivarmos.
+        | Somos focados nos resultados. Não tem entrelinhas nem pormenores, nosso modelo de success fee é pautado no resultado do seu negocio.
       p
         | 
         strong O segredo do sucesso: 
@@ -26,221 +26,208 @@ section.section
         | Trouxemos o expertise desenvolvido pela nossa equipe na Austrália e somamos aos mais de 9 anos de experiência no mercado Brasileiro para acelerarmos seu negócio.
 
     .column.is-half.content
-      table.table.is-hoverable.is-striped.is-narrow
-        thead
-          tr
-            th Atividade
-            th.has-text-centered Grátis
-            th.has-text-centered Starter
-            th.has-text-centered Professional
-            th.has-text-centered Enterprise
-        //- tfoot
-          tr
-            th Investimento
-            td.has-text-centered R$ 0
-            td.has-text-centered R$ 1.500
-              span.subtitle.is-7 /mês
-            td.has-text-centered R$ 1.250
-              span.subtitle.is-7 /mês
-            td.has-text-centered R$ 1.000
-              span.subtitle.is-7 /mês
-        tbody
-          tr
-            td Potencial de mercado
-            td.has-text-centered
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Necessidades do negócio
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Metas e indicadores
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Planejamento Estratégico
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Roadmap de canais
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Branding e tom de voz
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Customer Journey
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr
-            td MQL, SQL e Leadscoring
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Brainstorm à automação
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Churn rate e NPS
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Customer Success
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Product Market Fit
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Portfolio e pricing
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check
-          tr  
-            td Automações para oportunidades
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-grey
-                i.fas.fa-times
-            td.has-text-centered 
-              span.icon.has-text-success
-                i.fas.fa-check 
+      .table__wrapper
+        table.table.is-hoverable.is-striped.is-narrow
+          thead
+            tr
+              th Atividade
+              th.has-text-centered Grátis
+              th.has-text-centered Starter
+              th.has-text-centered Professional
+              th.has-text-centered Enterprise
+          //- tfoot
+            tr
+              th Investimento
+              td.has-text-centered R$ 0
+              td.has-text-centered R$ 1.500
+                span.subtitle.is-7 /mês
+              td.has-text-centered R$ 1.250
+                span.subtitle.is-7 /mês
+              td.has-text-centered R$ 1.000
+                span.subtitle.is-7 /mês
+          tbody
+            tr
+              td Potencial de mercado
+              td.has-text-centered
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Metas e indicadores
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Planejamento Estratégico
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Roadmap de canais
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Branding e tom de voz
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Customer Journey
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr
+              td MQL, SQL e Leadscoring
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Brainstorm à automação
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Churn rate e NPS
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Customer Success
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Product Market Fit
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Portfolio e pricing
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check
+            tr  
+              td Automações para oportunidades
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-grey
+                  i.fas.fa-times
+              td.has-text-centered 
+                span.icon.has-text-success
+                  i.fas.fa-check 
     
 
 

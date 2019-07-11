@@ -6,11 +6,9 @@ section.section.container.content
   .columns
     .column.is-half
       h3 Tracionamos o seu negócio
-      p Da Validação do produto com o mercado 
-        em (product market fit) 
-        | entendemos as necessidades do seu consudmir e podemos sugerir ajustes da rota do produto.
       p
-      | Utilizando as técnicas de Growth Hacking nossos experimentos são realizados com base na geração e análise de dados para validação da eficiência dos direcionamentos e propostas de alteração de rota.
+      | Utilizando as técnicas de Growth Hacking nossos experimentos são realizados com base na geração e análise de dados para validação da eficiência dos direcionamentos e propostas de alteração de rota. Quando necessário, entendemos as necessidades do seu consudmir e podemos sugerir ajustes da rota do produto 
+      em (product market fit).
       h3 Redução constante do Churn
       p
       | Com o mapa do seu cliente ideal, entendemos as melhores oportunidades para realizar uma venda consciente e madura; evitando a taxa de evazão, com redução do custo de aquisição de novos clientes. 
