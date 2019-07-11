@@ -1,13 +1,14 @@
 <template lang="pug">
-section.section.has-background-light.content
+section.section.has-background-light
   header
     h2.title.is-2.has-text-centered Há uma maneira melhor de crescer
-    p.has-text-centered
-    | Canais tradicionais de marketing estão saturados e caros. Empresas têm recursos limitados, elas precisam ser criativas em relação a adquirir novos usuários e retê-los e assim, gerar crescimento. Utilizamos a metologia de 
-    strong
-      em ScoreCard 
-    | focado em definir as prioridades e conseguir o maior resultado em um curto espaço de tempo.  
-    | Nossos serviços ajudam sua empresa a crescer agora. Porque o que é bom para a empresa, também deve ser bom para o cliente.
+    .content
+      p
+      | Canais tradicionais de marketing estão saturados e caros. Empresas têm recursos limitados, elas precisam ser criativas em relação a adquirir novos usuários e retê-los e assim, gerar crescimento. Utilizamos a metologia de 
+      strong
+        em ScoreCard 
+      | focado em definir as prioridades e conseguir o maior resultado em um curto espaço de tempo.  
+      | Nossos serviços ajudam sua empresa a crescer agora. Porque o que é bom para a empresa, também deve ser bom para o cliente.
     .tile.is-ancestor
       .tile.is-vertical
         .tile

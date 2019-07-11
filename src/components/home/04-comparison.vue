@@ -14,23 +14,27 @@ section.section
       h5 Porque contratar a s21 Digital e não outras empresas?
       p 
         | 
-        strong No Pain, No Gain: 
-        | Somos focados nos resultados. Não tem entrelinhas nem pormenores, nosso modelo de success fee é pautado no resultado do seu negocio.
+        strong No Pain, no Gain: 
+        | Somos focados nos resultados. Não tem entrelinhas nem pormenores, nosso modelo de 
+        em Success Fee 
+        |é pautado no resultado do seu negocio.
       p
         | 
         strong O segredo do sucesso: 
-        | Executamos e Integramos o Marketing Digital e o processo de Vendas do seu negócio, através de uma base sólida e confiável de dados, utilizando de muita tecnologia e sob medida para sua empresa.
+        | Executamos e integramos 
+        em growth marketing 
+        | e o processo de vendas do seu negócio, através de uma base sólida e confiável de dados, utilizando de muita tecnologia e sob medida para sua empresa.
       p 
         | 
         strong De Brazucas a Aussies e vice-versa: 
-        | Trouxemos o expertise desenvolvido pela nossa equipe na Austrália e somamos aos mais de 9 anos de experiência no mercado Brasileiro para acelerarmos seu negócio.
+        | Trouxemos o expertise desenvolvido pela nossa equipe na Austrália e somamos aos mais de 10 anos de experiência no mercado brasileiro para acelerarmos seu negócio.
 
     .column.is-half.content
       .table__wrapper
         table.table.is-hoverable.is-striped.is-narrow
           thead
             tr
-              th Atividade
+              th Projeto
               th.has-text-centered Grátis
               th.has-text-centered Starter
               th.has-text-centered Professional

@@ -4,7 +4,10 @@ section.section.has-background-light
     .columns.has-text-centered
       .column.is-10.is-offset-1
         h2.is-2.title(data-aos='fade-up', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000' data-aos-easing='ease-in-out-quad') Como fazemos?
-        p.has-text-left Com um Framework utilizado pelas maiores startups do mundo e atualizado para o Brasil com empresas como o Netshoes, nosso objetivo é estabelecer metas e ações para cada etapa de intenção do seu usuário, mas sem perder a visão do todo.
+        p.has-text-left
+        | Com um 
+        em framework 
+        | utilizado pelas maiores startups do mundo e atualizado para o Brasil com empresas como o Netshoes, nosso objetivo é estabelecer metas e ações para cada etapa de intenção do seu usuário, mas sem perder a visão do todo.
     .columns
       .column(data-aos='fade-up', data-aos-offset='100', data-aos-delay='100', data-aos-duration='1000', data-aos-easing='ease-in-out-quad').is-10.is-offset-1
         figure.image
@@ -19,7 +22,7 @@ section.section.has-background-light
           li
             | 
             strong Geração de conteúdos: 
-            | Conectamos seus leads com conteúdos qualificados e validados a partir de conceitos do Growth (leads);
+            | Conectamos seus leads com conteúdos qualificados e validados a partir de conceitos do Growth Hacking (leads);
           li 
             | 
             strong Gerenciamento de mídias:  
