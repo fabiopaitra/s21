@@ -10,7 +10,7 @@
     companies
     comparison
     urgency
-    //- faq
+    faq
     //- mainCta
     mainFooter
 
