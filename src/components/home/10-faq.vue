@@ -1,5 +1,5 @@
 /<template lang="pug">
-section.section.container
+aside.section.container
   .columns.is-multiline.is-mobile
     .column
       figure.image.is-128x128

@@ -1,11 +1,7 @@
 <template lang="pug">
-section.section
-  .container.content
-    .columns
-      .column.has-text-centered
-        h2.is-2.title Quanto cobramos?
-        h3.subtitle Quanto maior o seu retorno, melhor o nosso investimento.
-
+section.section.container.content
+  h2.is-2.title.has-text-centered Quanto cobramos?
+  h3.subtitle.has-text-centered Quanto maior o seu retorno, melhor o nosso investimento.
   .columns.is-centered.container
     .column.content
       h5 Nossos serviços são cobrados pelo nosso desempenho no seu negócio.

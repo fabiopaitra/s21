@@ -1,18 +1,22 @@
 <template lang="pug">
   div
-    hero
-    benefits
-    chartsWhat
-    chartsHow
-    //- certification
-    //- socialProof
-    //- reciprocity
-    companies
-    comparison
-    urgency
-    faq
-    //- mainCta
-    mainFooter
+    header
+      hero
+    main
+      article
+        benefits
+        chartsWhat
+        chartsHow
+        //- certification
+        //- socialProof
+        //- reciprocity
+        companies
+        comparison
+        urgency
+        faq
+        //- mainCta
+    footer
+      mainFooter
 
 </template>
 

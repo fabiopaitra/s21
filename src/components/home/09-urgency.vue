@@ -1,5 +1,5 @@
 <template <template lang="pug">
-section.section.has-background-light
+aside.section.has-background-light
   .container.content
     .columns
       .column.is-8

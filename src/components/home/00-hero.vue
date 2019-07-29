@@ -1,5 +1,5 @@
 <template lang="pug">
-header.hero.is-primary.is-bold.is-fullheight
+.hero.is-primary.is-bold.is-fullheight
   .hero-head
     nav.navbar(role="navigation", aria-label="main navigation")
       .navbar-brand
@@ -10,12 +10,12 @@ header.hero.is-primary.is-bold.is-fullheight
               tspan(x="0", y="24") 21
   .hero-body
     .container
-      h2.title.is-size-1.is-spaced
-        | Como desenvolver uma marca 
-        span.gradient atual?
+      p.title.is-size-1.is-spaced
+        | Como criar um site gerador de 
+        span.gradient negócios?
       h1.subtitle
-        | Agência de Marketing Digital em Curitiba, com metodologia Growth Hacking, que ajuda negócios a alcançarem um crescimento rápido e sustentável.
-        .item-level(:id="`hubspot-form-${hubspotFormId}`")
+        | Agência de Marketing Digital, com metodologia Growth Hacking em Curitiba, que ajuda negócios a alcançarem um crescimento rápido e sustentável desde o desenvolvimento de web sites a gestão de mídia Google e Facebook.
+      .item-level(:id="`hubspot-form-${hubspotFormId}`")
 
 
   </template>

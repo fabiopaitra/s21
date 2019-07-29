@@ -1,8 +1,6 @@
 <template lang="pug">
 section.section.container.content
-  .columns.has-text-centered
-    .column
-      h2.is-2.title(data-aos='fade-up', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000' data-aos-easing='ease-in-out-quad') O que fazemos?
+  h2.is-2.title.has-text-centered(data-aos='fade-up', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000' data-aos-easing='ease-in-out-quad') O que fazemos?
   .columns
     .column.is-half
       h3 Tracionamos o seu negócio
