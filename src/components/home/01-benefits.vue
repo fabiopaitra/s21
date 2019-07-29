@@ -1,9 +1,9 @@
 <template lang="pug">
 section.section.has-background-light
   h2.title.is-2.has-text-centered
-    | Growth Hacking faz o 
-    span.gradient seu negócio 
-    | alavancar como uma 
+    | Growth Hacking faz a sua empresa 
+    span.gradient alavancar 
+    | como uma 
     em startup
   .content
     p
@@ -24,11 +24,9 @@ section.section.has-background-light
                   router-link(:to="{ name: 'Seo' }")
                     img(src="../../assets/images/atracao.png", alt="Growth Hacking para atrair mais usuários")
               .card-content
-                .media
-                  .media-content
-                    h3.subtitle.is-6.has-text-primary AQUISIÇÃO
-                    p.title.is-4
-                      router-link(:to="{ name: 'Seo' }") Otimize investimentos e torne-se líder de mercado 
+                h3.subtitle.is-6.has-text-primary AQUISIÇÃO
+                p.title.is-4
+                  router-link(:to="{ name: 'Seo' }") Otimize investimentos e torne-se líder de mercado 
                 .content
                   | Utilize técnicas de 
                   em Growth Hacking 
@@ -46,11 +44,9 @@ section.section.has-background-light
                   router-link(:to="{ name: 'Seo' }")
                     img(src="../../assets/images/ativacao.png", alt="Faça experimentos de Growth Marketing para validar seu produto")
               .card-content
-                .media
-                  .media-content
-                    h3.subtitle.is-6.has-text-primary RETENÇÃO
-                    p.title.is-4
-                      router-link(:to="{ name: 'Seo' }") Faça a jornada do usuário empolgante
+                h3.subtitle.is-6.has-text-primary RETENÇÃO
+                p.title.is-4
+                  router-link(:to="{ name: 'Seo' }") Faça a jornada do usuário empolgante
                 .content
                   | Entenda em tempo real como está a satisfação e jornada dos seus clientes. Receba orientação em relação a implantação de melhorias e valide suas estratégias em 
                   em Customer Success.
@@ -64,11 +60,9 @@ section.section.has-background-light
                   router-link(:to="{ name: 'Seo' }")
                     img(src="../../assets/images/retencao.png", alt="Realize Cross selling e upsell para aumentar seu faturamento")
               .card-content
-                .media
-                  .media-content
-                    h3.subtitle.is-6.has-text-primary AMPLIAÇÃO
-                    p.title.is-4
-                      router-link(:to="{ name: 'Seo' }") Prepare-se para expandir sua receita
+                h3.subtitle.is-6.has-text-primary AMPLIAÇÃO
+                p.title.is-4
+                  router-link(:to="{ name: 'Seo' }") Prepare-se para expandir sua receita
                 .content
                   | Capacite sua equipe sobre a perspectiva de análise de dados afim de oferecer à seus usuários mais soluções e aumentar o engajamento de consumidores. Aprenda como utilizar 
                   em KPIs 

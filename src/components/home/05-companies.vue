@@ -17,9 +17,7 @@ section.section.has-background-black-bis
                 figure.image.is-4by5
                   img(src="@/assets/images/mandela-longa-caminhada-liberdade-s21digital.jpg", alt="Capa Longa Caminhada até a Liberdade - Nelson Mandela - Prefácio Fernando Henrique Cardoso")
               .card-content
-                .media
-                  .media-content
-                    h4.title.is-4.has-text-light Editora Nossa Cultura
+                h4.title.is-4.has-text-light Editora Nossa Cultura
                 .content.has-text-light
                   p
                   | Mais de 20 capas, sendo vitrine nas maiores livrarias do Brasil, desenvolvidas durante 2 anos. 
@@ -31,9 +29,7 @@ section.section.has-background-black-bis
                 figure.image.is-3by1
                   img(src="@/assets/images/abemd-curso-marketing-dados-s21digital.jpg", alt="Placeholder image")
               .card-content
-                .media
-                  .media-content
-                    h4.title.is-4.has-text-light Associação Brasileira de Marketing de Dados
+                h4.title.is-4.has-text-light Associação Brasileira de Marketing de Dados
                 .content.has-text-light
                   p
                   | Hotsite como foco em apresentar e captar alunos para o curso de Marketing de Dados oferecido pela Abemd em São Paulo durante 2017. 
@@ -43,9 +39,7 @@ section.section.has-background-black-bis
                 figure.image.is-3by1
                   img(src="@/assets/images/hsbc-emailmkt-advance-s21digital.jpg", alt="HSBC Bank Brasil - Campanhas de E-mail Marketing")
               .card-content
-                .media
-                  .media-content
-                    h4.title.is-4.has-text-light HSBC Bank Brasil
+                h4.title.is-4.has-text-light HSBC Bank Brasil
                 .content.has-text-light
                   p
                   | Desenvolvimento do HTML para e-mail marketing com os padrões de segurança e qualidade de código exigidos pelo HSBC Brasil. 
@@ -55,9 +49,7 @@ section.section.has-background-black-bis
                 figure.image.is-square
                   img(src="@/assets/images/inovaBra-bradesco-habitat-s21digital.jpg", alt="Plataforma de Inovação Bradesco - InovaBra Habitat")
               .card-content
-                .media
-                  .media-content
-                    h4.title.is-4.has-text-light InovaBra - Bradesco
+                h4.title.is-4.has-text-light InovaBra - Bradesco
                 .content.has-text-light
                   p
                   | Landing Page em VueJS com objetivo de apresentar o Book de Startups aceleradas pelo InovaBra do Bradesco
@@ -68,9 +60,7 @@ section.section.has-background-black-bis
                 figure.image.is-square.overflow
                   img#room(src="@/assets/images/avon-programa-eva-s21digital.jpg", alt="Eva, Programa de Relacionamento Avon para revendedoras")
               .card-content
-                .media
-                  .media-content
-                    h4.title.is-4.has-text-light Avon Brasil
+                h4.title.is-4.has-text-light Avon Brasil
                 .content.has-text-light
                   p
                   | E-mail Marketing para EVA, o programa de relacionamento da Avon Brasil. 
@@ -80,9 +70,7 @@ section.section.has-background-black-bis
                 figure.image.is-4by5
                   img(src="@/assets/images/educationlink-seo-ads-s21digital.jpg", alt="EducationLink SEO e Mídia")
               .card-content
-                .media
-                  .media-content
-                    h4.title.is-4.has-text-light EducationLink
+                h4.title.is-4.has-text-light EducationLink
                 .content.has-text-light
                   p
                   | Nosso objetivo era validar e escalar. Em 3 meses, implantamos o modelo de Leadscoring com aumento de 5x a ˜ão de novos clientes. Em SEO, foi possível chegar a primeira posição nos principais termos para o negócio. Google e Facebook Ads entraram como suporte nos 7 touchpoints projetados para atender a fluxo de decisão da startup.
