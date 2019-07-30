@@ -53,12 +53,16 @@ const router = new VueRouter({
         title: 'Sabe pão quentinho saindo do forno? Então, serão seus leads a partir de agora.',
         metaTags: [
           {
-            property: 'description',
+            name: 'description',
             content: 'Já iremos te enviar, espera só nosso consultor criativo parar de dormir que ele já vai montar seu dossiê',
           },
           {
             property: 'og:description',
             content: 'Já iremos te enviar, espera só nosso consultor criativo parar de dormir que ele já vai montar seu dossiê',
+          },
+          {
+            property: 'robots',
+            content: 'noindex',
           },
         ],
       },

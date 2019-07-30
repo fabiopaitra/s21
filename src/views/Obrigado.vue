@@ -4,15 +4,15 @@
       hero
     main
       article
-        benefits
-        chartsWhat
+        //- benefits
+        //- chartsWhat
         chartsHow
-        //- certification
+        certification
         //- socialProof
         //- reciprocity
-        companies
-        comparison
-        urgency
+        //- companies
+        //- comparison
+        //- urgency
         faq
         //- mainCta
     footer
@@ -25,7 +25,7 @@ import {
   Component,
   Vue,
 } from 'vue-property-decorator';
-import hero from '@/components/home/00-hero.vue';
+import hero from '@/components/obrigado/00-hero.vue';
 import benefits from '@/components/home/01-benefits.vue';
 import chartsWhat from '@/components/home/02-chartsWhat.vue';
 import chartsHow from '@/components/home/02-chartsHow.vue';
@@ -56,5 +56,5 @@ import mainFooter from '@/components/10-mainFooter.vue';
     mainFooter,
   },
 })
-export default class Home extends Vue {}
+export default class Obrigado extends Vue {}
 </script>

@@ -1,78 +1,64 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Router from 'vue-router';
 import Seo from './views/ComoClassificarSEO.vue';
 import Home from './views/Home.vue';
-import Obrigado from './views/Obrigado.vue';
 
-const router = new VueRouter({
+Vue.use(Router);
+/* tslint:disable */
+/* eslint-disable */
+const routes = [
+  {
+    path: '/',
+    name: 'Home',
+    component: Home,
+    meta: {
+      title: 'Marketing digital para liderar com dados | s21digital',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Marketing digital, ferramentas, mídia de performance e análise de dados para alancar o tráfego do seu site.'
+        },
+        // {
+        //   property: 'og:description',
+        //   content: 'OG da primeira pagina'
+        // }
+      ]
+    },
+  },
+  {
+    path: '/como-classificar-site-primeira-posicao-google',
+    name: 'Seo',
+    Component: Seo,
+    meta: {
+      title: 'Como classificar em #1 seu site com SEO no Google (2019)',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Tutorial de SEO passo-a-passo avançado de como obter mais tráfego orgânico'
+        },
+        {
+          property: 'og:description',
+          content: 'Como classificar em #1 seu site com SEO no Google (2019)'
+        }
+      ]
+    },
+    component: () => import('./views/ComoClassificarSEO.vue'),
+  },
+];
+
+const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes: [
-    {
-      path: '*',
-      redirect: { name: 'Home' },
-    },
-    {
-      path: '/',
-      name: 'Home',
-      component: Home,
-      meta: {
-        title: 'Agência de Marketing Digital em Curitiba - s21digital',
-        metaTags: [
-          {
-            name: 'description',
-            content:
-              'Criação e otimização de sites em Curitiba. Marketing Digital com metodologia Growth Hacking especializado em SEO e mídia digital.',
-          },
-        ],
-      },
-    },
-    {
-      path: '/como-classificar-site-primeira-posicao-google',
-      name: 'Seo',
-      component: Seo,
-      meta: {
-        title: 'Como classificar em #1 seu site com SEO no Google (2019)',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Tutorial de SEO passo-a-passo avançado de como obter tráfego orgânico',
-          },
-          {
-            property: 'og:description',
-            content: 'Como classificar em #1 seu site com SEO no Google (2019)',
-          },
-        ],
-      },
-    },
-    {
-      path: '/obrigado',
-      name: 'Obrigado',
-      component: Obrigado,
-      meta: {
-        title: 'Sabe pão quentinho saindo do forno? Então, serão seus leads a partir de agora.',
-        metaTags: [
-          {
-            property: 'description',
-            content: 'Já iremos te enviar, espera só nosso consultor criativo parar de dormir que ele já vai montar seu dossiê',
-          },
-          {
-            property: 'og:description',
-            content: 'Já iremos te enviar, espera só nosso consultor criativo parar de dormir que ele já vai montar seu dossiê',
-          },
-        ],
-      },
-    },
-  ],
+  routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
-      return savedPosition;
+      return savedPosition
     } else {
-      return { x: 0, y: 0 };
+      return { x: 0, y: 0 }
     }
-  },
+  }
 });
-Vue.use(VueRouter);
+
 
 // This callback runs before every route change, including on page load.
 router.beforeEach((to, from, next) => {
