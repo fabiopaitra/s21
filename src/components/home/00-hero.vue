@@ -11,7 +11,7 @@
   .hero-body
     .container
       p.title.is-size-1.is-spaced
-        | Como criar um site gerador de 
+        | Como criar um site que gera
         span.gradient negócios?
       h1.subtitle
         | Agência de Marketing Digital, com metodologia Growth Hacking em Curitiba, que ajuda negócios a alcançarem um crescimento rápido e sustentável desde o desenvolvimento de web sites a gestão de mídia Google e Facebook.
