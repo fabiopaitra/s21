@@ -21,10 +21,7 @@
 </template>
 
 <script lang="ts">
-import {
-  Component,
-  Vue,
-} from 'vue-property-decorator';
+import { Component, Vue } from 'vue-property-decorator';
 import hero from '@/components/home/00-hero.vue';
 import benefits from '@/components/home/01-benefits.vue';
 import chartsWhat from '@/components/home/02-chartsWhat.vue';
