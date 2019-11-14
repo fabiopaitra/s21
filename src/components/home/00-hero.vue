@@ -10,15 +10,12 @@
 
   .hero-body
     .container
-      h1.title.is-size-1.is-spaced.has-text-weight-light.has-text-centered
-        | Seus imóveis anunciados nos melhores portais 
-        strong
-          | a partir de uma única plataforma web.
-      p.subtitle.has-text-weight-light.has-text-centered
-        strong
-          | Reduza o ciclo de vendas. 
-        | Velocidade e inteligência na integração de anúncios, investimentos otimizados e melhor performance.
-      //.item-level(:id="`hubspot-form-${hubspotFormId}`") 
+      p.title.is-size-1.is-spaced
+        | Como criar um site que gera
+        span.gradient negócios?
+      h1.subtitle
+        | Agência de Marketing Digital, com metodologia Growth Hacking em Curitiba, que ajuda negócios a alcançarem um crescimento rápido e sustentável desde o desenvolvimento de web sites a gestão de mídia Google e Facebook.
+      .item-level(:id="`hubspot-form-${hubspotFormId}`")
 
 
   </template>
