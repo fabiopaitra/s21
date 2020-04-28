@@ -3,16 +3,18 @@ section.section.container.content
   h2.is-2.title.has-text-centered(data-aos='fade-up', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000' data-aos-easing='ease-in-out-quad') O que fazemos?
   .columns
     .column.is-half
-      h3 Tracionamos o seu negócio
-      p
-      | Utilizando as técnicas de 
-      em Growth Hacking 
-      | nossos experimentos são realizados com base na geração e análise de dados para validação da eficiência dos direcionamentos e propostas de alteração de rota. Quando necessário, entendemos as necessidades do seu consumidor e podemos sugerir ajustes da rota do produto 
-      em (product market fit).
-      h3 Redução constante do 
-        em Churn
-      p
-      | Com o mapa do seu cliente ideal, entendemos as melhores oportunidades para realizar uma venda consciente e madura; evitando a taxa de evazão, com redução do custo de aquisição de novos clientes. 
+      ul
+        li Entendemos o mercado de atuação da sua empresa e produto;
+        li Avaliamos o comportamento e necessidades do seu consumidor;
+        li Levantamos possibilidades de geração de negócios;
+        li Testamos a receptividade do mercado;
+        li Acompanhamos os resultados gerados;
+        li E firmamos os processos revisados.
+      h3 Indicamos o caminho para tracionar o seu negócio
+      p Nossos experimentos são realizados com base na geração e análise de dados para validação da eficiência dos direcionamentos e propostas de alteração de rota. Entendemos as necessidades do seu cliente e sugerimos variações de rota (product market fit).
+      
+      h3 Redução constante do Churn
+      p Com o mapa do seu cliente ideal, entendemos as melhores oportunidades para realizar uma venda consciente e madura; evitando a taxa de evasão, com redução do custo de aquisição de novos clientes.
       
       h3 Preparado para escalar?
       p Nossas frentes de trabalho, estão orientadas para adquirir, reter e ampliar suas vendas. Se a sua empresa já estiver com essa maturidade, com um modelo de negócio validado, podemos replicar os experimentos de sucesso para escalar suas vendas. É tetra!!!

@@ -11,10 +11,11 @@
   .hero-body
     .container
       p.title.is-size-1.is-spaced
-        | Como criar um site gerador de 
-        span.gradient negócios?
+        | Como gerar negócios nesse momento tão complicado? 
+        span.gradient Me conta s21!
       h1.subtitle
-        | Agência de Marketing Digital, com metodologia Growth Hacking em Curitiba, que ajuda negócios a alcançarem um crescimento rápido e sustentável desde o desenvolvimento de web sites a gestão de mídia Google e Facebook.
+        | Prazer, somos a S21, e vamos ajudar no desenvolvimento do seu negócio no mercado digital.
+        | Utilizando a metodologia de Growth Hacking exploramos as oportunidades que o seu negócio pode alcançar e indicamos o caminho das pedras.
       .item-level(:id="`hubspot-form-${hubspotFormId}`")
 
 

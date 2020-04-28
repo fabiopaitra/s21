@@ -4,10 +4,7 @@ aside.section.has-background-light
     .columns
       .column.is-8
         h2.title Descubra seu potencial de crescimento hoje mesmo
-        p Utilize técnicas de 
-          em growth hacking 
-          | e otimize as estratégias de marketing digital. Faça com que a jornada do usuário seja empolgante. Monitore e meça o desempenho de campanhas. Melhore o objetivo, a conversão e o Retorno sobre seu Investimento Digital. 
-          | Analise o sentimento do cliente e aumente o conhecimento sobre a marca.
+        p Fale com a gente agora e explore o mercado digital. Utilize técnicas de growth e otimize as estratégias. Faça com que a jornada do usuário seja empolgante. Monitore e melhore o desempenho de campanhas. Amplie a conversão e reduza o tempo de retorno sobre seu Investimento digital. Analise o sentimento do cliente e aumente o conhecimento sobre a marca.
         a(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger").button.is-outlined.is-danger
           span Agende um café
           span.icon

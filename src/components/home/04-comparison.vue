@@ -4,28 +4,18 @@ section.section.container.content
   h3.subtitle.has-text-centered Quanto maior o seu retorno, melhor o nosso investimento.
   .columns.is-centered.container
     .column.content
-      h5 Nossos serviços são cobrados pelo nosso desempenho no seu negócio.
-      p Pelo volume de vendas fechadas por nós (X) volume atual de vendas. Esse modelo é conhecido por sucess fee. É a forma como agências atuais, preocupadas com o resultado do cliente podem ter uma parceria duradoura e saudável entre os negócios.
-      p Exemplo: ex: 10% a mais de faturamento, nosso percentual é 20%; 20% a mais, nosso percentual pode chegar à 30%, e assim por diante.
+      h5 Estamos empenhados em fazer seu negócio deslanchar.
+      p Avaliamos o tempo e escopo do trabalho e te enviamos um orçamento rapidamente, que caiba no seu bolso.
       h5 Porque contratar a s21 Digital e não outras empresas?
-      p 
-        | 
-        strong No Pain, no Gain: 
-        | Somos focados nos resultados. Não tem entrelinhas nem pormenores, nosso modelo de 
-        em Success Fee 
-        |é pautado no resultado do seu negocio.
       p
-        | 
-        strong O segredo do sucesso: 
-        | Executamos e integramos 
-        em growth marketing 
-        | e o processo de vendas do seu negócio, através de uma base sólida e confiável de dados, utilizando de muita tecnologia e sob medida para sua empresa.
-      p 
-        | 
-        strong De Brazucas a Aussies e vice-versa: 
+        strong Segredo do sucesso: 
+        | Executamos e integramos growth hocking e o processo de vendas do seu negócio, através de uma base sólida e confiável de dados, utilizando de muita tecnologia e sob medida para sua empresa.
+      p
+        strong De Brazucas a Aussies e vice-versa:
         | Trouxemos o expertise desenvolvido pela nossa equipe na Austrália e somamos aos mais de 10 anos de experiência no mercado brasileiro para acelerarmos seu negócio.
 
-    .column.is-half.content
+
+    //- .column.is-half.content
       .table__wrapper
         table.table.is-hoverable.is-striped.is-narrow
           thead

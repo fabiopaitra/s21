@@ -2,11 +2,8 @@
 section.section.has-background-black-bis
   h2.title.is-2.has-text-centered.has-text-light O que fizemos
   .container.content
-    p.has-text-light
-      | Ao desenvolver uma campanha, é importante que as metas sejam claras. Mensurar cada etapa com controle para chegar ao resultado sem surpresas negativas. Esta é a metodologia aplicada pela s21. Com essa premissa, propomos aos nossos clientes, trabalhar com o modelo de 
-      strong
-        em.has-text-light Success Fee
-      | , onde ganhamos com o sucesso das metas atingidas.
+    p.has-text-light Ao desenvolver um projeto, é importante que as metas sejam claras. Mensurar cada etapa com controle para chegar ao resultado sem surpresas negativas.
+      
   .tile.is-ancestor
     .tile.is-vertical
       .tile
