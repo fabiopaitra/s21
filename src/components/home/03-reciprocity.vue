@@ -22,10 +22,10 @@ section.section.has-background-dark.content
 
   .columns.has-text-centered
     .column
-      a(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger").button.is-outlined.is-danger.is-medium
+       a.is-success.button.is-rounded(href="https://wa.me/5541999352190", target="_blank", title="Fale conosco pelo Whatsapp")  
         span Agende um café
         span.icon
-          i.fab.fa-facebook-messenger
+          i.fab.fa-whatsapp
 </template>
 
 <script>

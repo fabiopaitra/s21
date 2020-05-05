@@ -5,8 +5,7 @@ section.section.has-background-light
     | Growth Hacking faz a sua empresa 
     span alavancar
   .content
-    p Empresas têm recursos limitados e precisam ser criativas para gerar faturamento. O Growth Hacking é uma metodologia que propicia um ambiente acelerado de ideias, testes e medição de resultados para que em um curto espaço de tempo obtenha-se alternativas viáveis e sustentáveis de negócios.
-    p Nossos serviços ajudam sua empresa a crescer agora.
+    p Empresas têm recursos limitados e precisam ser criativas para gerar faturamento. O Growth Hacking é uma metodologia que propicia um ambiente acelerado de ideias, testes e medição de resultados para que em um curto espaço de tempo obtenha-se alternativas viáveis e sustentáveis de negócios. Nossos serviços ajudam sua empresa a crescer agora.
 
 
   .tile.is-ancestor

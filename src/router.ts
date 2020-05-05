@@ -16,7 +16,7 @@ const router = new VueRouter({
       name: 'Home',
       component: Home,
       meta: {
-        title: 'Agência de Marketing Digital em Curitiba - s21digital',
+        title: 'Digitalize seu negócio. Transformação digital em Curitiba - s21digital',
         metaTags: [
           {
             name: 'description',

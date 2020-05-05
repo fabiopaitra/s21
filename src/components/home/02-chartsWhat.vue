@@ -6,13 +6,10 @@ section.section.container.content
       .content(v-for='item in items' :key='item')
         h3 {{ item.title }}
         p {{ item.body }}
-      
-     
-        
-      a(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger").button.is-outlined.is-danger
-          span Agende um café
-          span.icon
-            i.fab.fa-facebook-messenger
+      a.is-success.button.is-rounded(href="https://wa.me/5541999352190", target="_blank", title="Fale conosco pelo Whatsapp")  
+        span Agende um café
+        span.icon
+          i.fab.fa-whatsapp
 
     .column(data-aos='fade-down', data-aos-offset='100', data-aos-delay='100', data-aos-duration='1000', data-aos-easing='ease-in-out-quad')
       figure.image

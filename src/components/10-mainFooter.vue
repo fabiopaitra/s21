@@ -29,7 +29,7 @@ footer.footer.has-background-grey-lighter
       
     .column.content.is-small.is-3
       span.icon.is-large
-        a.has-text-danger(href="https://wa.me/5541999352190", target="_blank", title="Fale conosco pelo Whatsapp")
+        a(href="https://wa.me/5541999352190", target="_blank", title="Fale conosco pelo Whatsapp")
           i.fab.fa-whatsapp.fa-2x
       span.icon.is-large
         a(href="https://facebook.com/s21digital", target="_blank", title="Conheça o 21digital Facebook")
