@@ -9,10 +9,10 @@ section.section.container.content
       h5 Porque contratar a s21 Digital e não outras empresas?
       p
         strong Segredo do sucesso: 
-        | Executamos e integramos growth hocking e o processo de vendas do seu negócio, através de uma base sólida e confiável de dados, utilizando de muita tecnologia e sob medida para sua empresa.
+        | Executamos e integramos growth hacking e o processo de vendas do seu negócio, através de uma base sólida e confiável de dados, utilizando de muita tecnologia e sob medida para sua empresa.
       p
         strong De Brazucas a Aussies e vice-versa:
-        | Trouxemos o expertise desenvolvido pela nossa equipe na Austrália e somamos aos mais de 10 anos de experiência no mercado brasileiro para acelerarmos seu negócio.
+        |  Trouxemos o expertise desenvolvido pela nossa equipe na Austrália e somamos aos mais de 10 anos de experiência no mercado brasileiro para acelerarmos seu negócio.
 
 
     //- .column.is-half.content

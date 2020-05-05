@@ -29,6 +29,9 @@ footer.footer.has-background-grey-lighter
       
     .column.content.is-small.is-3
       span.icon.is-large
+        a.has-text-danger(href="https://wa.me/5541999352190", target="_blank", title="Fale conosco pelo Whatsapp")
+          i.fab.fa-whatsapp.fa-2x
+      span.icon.is-large
         a(href="https://facebook.com/s21digital", target="_blank", title="Conheça o 21digital Facebook")
           i.fab.fa-facebook.fa-2x
       span.icon.is-large  
@@ -44,6 +47,12 @@ footer.footer.has-background-grey-lighter
   hr.container.level    
   .level.container
     .level-left.content.is-small
+      .level-item
+        p Curitiba - PR
+      .level-item
+        p 41 99935 2190
+      .level-item
+        a.has-text-dark(href='mailto:contato.s21digital@gmail.com' title='Envie um email') contato.s21digital@gmail.com
       .level-item
         p Licenciado sob a 
           a.has-text-dark(href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR", target="_blank", title="Creative Commons International Attribuition 4.0") Creative Commons Internacional Attribution 4.0.

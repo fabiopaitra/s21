@@ -8,10 +8,15 @@
             text#s_21(data-name="s21", transform="translate(0 30)", fill="#ee2b5c", font-size="39", font-family="Helvetica-Bold, Helvetica", font-weight="700")
               tspan(x="0", y="0") s
               tspan(x="0", y="24") 21
+      .navbar-end
+        .navbar-item
+          a.has-text-success(href="https://wa.me/5541999352190", target="_blank", title="Fale conosco pelo Whatsapp")
+            i.fab.fa-whatsapp.fa-2x
+
   .hero-body
     .container
       p.title.is-size-1.is-spaced Como 
-        span.gradient gerar negócios 
+        span.has-text-danger gerar negócios 
         | nesse momento tão complicado? 
       h1.subtitle Prazer, somos a s21, e vamos ajudar no desenvolvimento do seu negócio no mercado digital. 
         | Utilizando a metodologia de Growth Hacking exploramos as oportunidades que o seu negócio pode alcançar e indicamos o caminho das pedras.

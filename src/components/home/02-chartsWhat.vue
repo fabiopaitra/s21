@@ -3,21 +3,11 @@ section.section.container.content
   h2.is-2.title.has-text-centered(data-aos='fade-up', data-aos-offset='100', data-aos-delay='0', data-aos-duration='1000' data-aos-easing='ease-in-out-quad') O que fazemos?
   .columns
     .column.is-half
-      ul
-        li Entendemos o mercado de atuação da sua empresa e produto;
-        li Avaliamos o comportamento e necessidades do seu consumidor;
-        li Levantamos possibilidades de geração de negócios;
-        li Testamos a receptividade do mercado;
-        li Acompanhamos os resultados gerados;
-        li E firmamos os processos revisados.
-      h3 Indicamos o caminho para tracionar o seu negócio
-      p Nossos experimentos são realizados com base na geração e análise de dados para validação da eficiência dos direcionamentos e propostas de alteração de rota. Entendemos as necessidades do seu cliente e sugerimos variações de rota (product market fit).
+      .content(v-for='item in items' :key='item')
+        h3 {{ item.title }}
+        p {{ item.body }}
       
-      h3 Redução constante do Churn
-      p Com o mapa do seu cliente ideal, entendemos as melhores oportunidades para realizar uma venda consciente e madura; evitando a taxa de evasão, com redução do custo de aquisição de novos clientes.
-      
-      h3 Preparado para escalar?
-      p Nossas frentes de trabalho, estão orientadas para adquirir, reter e ampliar suas vendas. Se a sua empresa já estiver com essa maturidade, com um modelo de negócio validado, podemos replicar os experimentos de sucesso para escalar suas vendas. É tetra!!!
+     
         
       a(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger").button.is-outlined.is-danger
           span Agende um café
@@ -33,6 +23,47 @@ section.section.container.content
 
 <script lang="ts">
 export default {
+  data() {
+    return {
+      items: [
+        {
+          title: 'Desenvolvimento de negócios',
+          body:
+            'Identificação das oportunidades do negócio, estratégia de implementação digital, desenho dos fluxos de trabalho e do público a ser buscado.',
+        },
+        {
+          title: 'Desenvolvimento de landing page',
+          body:
+            'Orientação de domínio, descrição e conteúdo de site para aquisição de clientes. Com indicação e integração de software de gerenciamento de clientes e marketing',
+        },
+        {
+          title: 'Desenvolvimento de website',
+          body:
+            'Definição de posicionamento digital para maior performance, análise de palavras-chave de acesso no mercado atual, orientação de domínio, descrição e conteúdo de site – com análise da experiência do consumidor. Com integração e softwares de gestão.',
+        },
+        {
+          title: 'Desenvolvimento de ecommerce',
+          body:
+            'Definição de posicionamento digital para maior performance, análise de palavras-chave de acesso no mercado atual, orientação de domínio, descrição e conteúdo de site – com análise da experiência do consumidor. Com integração e softwares de gestão e operação.',
+        },
+        {
+          title: 'Inbound Sales',
+          body:
+            'Desenho da estratégia de vendas, com apresentação dos fluxos de trabalho e da geração de conteúdo por estágio do cliente no ciclo de vendas.',
+        },
+        {
+          title: 'Customer Success',
+          body:
+            'Desenho da do fluxo de atendimento ao cliente, com integração aos softwares de gestão e automação do processo. Definição dos indicadores e de como medi-los.',
+        },
+        {
+          title: 'Marketing Digital',
+          body:
+            'Desenho da estratégia de melhor posicionamento digital e levantamento dos investimentos necessários em campanhas. Desenvolvimento de guia de linguagem, voz, e layout das campanhas, com pós-produção dos conteúdos e gestão das mídias.',
+        },
+      ],
+    };
+  },
   name: 'chartsWhat',
 };
 </script>
