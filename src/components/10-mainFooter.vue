@@ -35,11 +35,11 @@ footer.footer.has-background-grey-lighter
         a(href="https://facebook.com/s21digital", target="_blank", title="Conheça o 21digital Facebook")
           i.fab.fa-facebook.fa-2x
       span.icon.is-large  
-        a(href="https://www.instagram.com/s21digital/", target="_blank", title="Conheça o s21digital Instagram" )
+        a(href="https://www.instagram.com/s21digital", target="_blank", title="Conheça o s21digital Instagram" )
           i.fab.fa-instagram.fa-2x
       span.icon.is-large  
-        a(href="https://twitter.com/s21digital", target="_blank", title="Conheça o s21digital Twitter")
-          i.fab.fa-twitter.fa-2x
+        a(href="https://www.linkedin.com/company/s21digital", target="_blank", title="Conheça o s21digital Linkedin")
+          i.fab.fa-linkedin.fa-2x
       span.icon.is-large  
         a(href="https://www.facebook.com/messages/t/s21digital", target="_blank", title="Fale conosco no Facebook messenger")
           i.fab.fa-facebook-messenger.fa-2x
@@ -52,7 +52,7 @@ footer.footer.has-background-grey-lighter
       .level-item
         p 41 99935 2190
       .level-item
-        a.has-text-dark(href='mailto:contato.s21digital@gmail.com' title='Envie um email') contato.s21digital@gmail.com
+        a.has-text-dark(href='mailto:biz@s21digital.com' title='Envie um email') biz@21digital.com
       .level-item
         p Licenciado sob a 
           a.has-text-dark(href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR", target="_blank", title="Creative Commons International Attribuition 4.0") Creative Commons Internacional Attribution 4.0.
