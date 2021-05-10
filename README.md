@@ -2,7 +2,7 @@
 
 ![Preview-Screens](https://github.com/fabiopaitra/s21/blob/master/prints.jpg)
 
-[comment] <> (If you want to take a look on all screens of the App, they are [here](https://drive.google.com/drive/folders/1rXFlogxaT5E0pthrrLhF1D_wOVbSHwhD).)
+[comment]: <> (If you want to take a look on all screens of the App, they are [here](https://drive.google.com/drive/folders/1rXFlogxaT5E0pthrrLhF1D_wOVbSHwhD).)
 
 ## About this Project
 
